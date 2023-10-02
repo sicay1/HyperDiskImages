@@ -4,7 +4,7 @@
 
 <table>
     <tr>
-        <td width="99999" align="center">This project is <b>backup</b>b> of disk image of machines.</td>
+        <td width="99999" align="center">This project is <b>backup</b> of disk image of machines.</td>
     </tr>
 </table>
 
