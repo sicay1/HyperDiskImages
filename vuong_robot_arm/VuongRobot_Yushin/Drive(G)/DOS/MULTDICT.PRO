@@ -1,0 +1,5 @@
+* IBM Dictionaries
+/MD=1 C:\$IBMBASE.DCT
+/MD=1 C:\IBMZIPC2.DCT
+/MD=1 C:\$IBMCNNC.DCT
+

@@ -1,0 +1,66 @@
+Version          1.80(b) - Version Number.( This file belongs to the Editor )
+*----------------------------------------------------------------------------
+**                 X1  Y1  X2   Y2 t s f fa  fr       ha  hd fc e s a du v rf
+Panl TBEOapiN 5 1   9 750  80  999 2 0 1 $70 '³ÄÙ¿ÀÚ' $4F '' '' 0 0 0 0  1 0
+JusH 0
+Attr $70
+Cell 5
+*----------------------------------------------------------------------------
+**                   X1  Y1  X2  Y2 t s f fa  fr       ha  hd fc e s a du v rf
+Panl TBEOapiLC 5 1  100 772 260 999 2 0 1 $70 '³ÄÙ¿ÀÚ' $4F '' '' 0 0 0 0  1 0
+JusH 0
+Attr $70
+Cell 5
+*----------------------------------------------------------------------------
+**                   X1  Y1  X2   Y2 t s f fa  fr       ha  hd fc e s a du v rf
+Panl TBEOapiLN 5 1  270 772 540 1008 2 0 1 $70 '³ÄÙ¿ÀÚ' $4F '' '' 0 0 0 0  1 0
+JusH 0
+Attr $70
+Cell 5
+*----------------------------------------------------------------------------
+**                  X1  Y1  X2   Y2 t s f fa  fr       ha  hd fc e s a du v rf
+Panl TBEOapiLB 5 1 550 772 680 1008 2 0 1 $70 '³ÄÙ¿ÀÚ' $4F '' '' 0 0 0 0  1 0
+JusH 0
+Attr $70
+Cell 5
+*----------------------------------------------------------------------------
+**                  X1  Y1  X2   Y2 t s f fa  fr       ha  hd fc e s a du v rf
+Panl TBEOapiUD 2 1 690 772 740 1008 2 0 1 $70 '³ÄÙ¿ÀÚ' $4F '' '' 0 0 0 0  1 0
+Attr $70
+Text 
+Cell
+Text 
+Cell
+*----------------------------------------------------------------------------
+**                 X1  Y1   X2   Y2 t s f fa  fr       ha  hd fc e s a du v rf
+Panl TBEOapiAD 2 1 750 772 845 1008 2 0 1 $70 '³ÄÙ¿ÀÚ' $4F '' '' 0 0 0 0  1 0
+Attr $70
+Text Add
+Cell
+Text Del
+Cell
+*----------------------------------------------------------------------------
+**                 X1  Y1   X2   Y2 t s f fa  fr       ha  hd fc e s a du v rf
+Panl TBEOapiC 5 1 850 772 1023 1008 2 0 1 $70 '³ÄÙ¿ÀÚ' $4F '' '' 0 0 0 0  1 0
+JusH 0
+Attr $70
+Text Show  Screen
+Cell 
+Text Show   Panel
+Cell 
+Text Remove Panel
+Cell 
+Text Show   Group
+Cell 
+Text Remove Group
+Cell 
+*----------------------------------------------------------------------------
+**                 X1  Y1   X2   Y2 t s f fa  fr       ha  hd fc e s a du v rf
+Panl TBEOapiB 1 1   1 772 1023 1023 1 0 1 $70 '³ÄÙ¿ÀÚ' $4F '' '' 0 0 0 0 0 0
+Attr $70
+CELL 
+
+
+
+
+

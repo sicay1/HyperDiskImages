@@ -1,0 +1,19 @@
+********************************************************************************************
+***       Teaching Data Print (Podition Data)                                            ***
+***       Teaching Data Print (Speed Data)                                               ***
+***       Teaching Data Print (Timer Data)                                               ***
+***       Teaching Data Print (Counter Data)                                             ***
+***       Teaching Data Print (Mode Data)                                                ***
+***       Teaching Data Print (Other Data)                                               ***
+***       Error Log Data Print                                                           ***
+***       Information Data Print                                                         ***
+***       Production Status Data Print                                                   ***
+                                                                                            
+    Position name           Aaxis   Baxis   Caxis   Daxis   Eaxis   Faxis   Gaxis   Haxis   
+    Speed name                    Acceleratio      Speed        Deceleration                
+    Timer name                      Timer value                                             
+    Counter name                   Counter value                                            
+    Mode name                    Selected mode name                                         
+                                                                                            
+          No.    Data                 Number    Error                                       
+

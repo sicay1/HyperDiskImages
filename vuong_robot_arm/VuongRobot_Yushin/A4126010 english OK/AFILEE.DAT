@@ -1,0 +1,351 @@
+SEL=00001
+" Exit "
+"Cancel"
+"About to exit all data without saving       "
+"are you sure ?                              "
+SEL=00002
+"  Ok  "
+"Cancel"
+"About to exit all data without saving       "
+"are you sure ?                              "
+SEL=00003
+"Clear "
+"Cancel"
+"Delete all the set order data.              "
+"                                            "
+SEL=00004
+"FL Mov"
+"Cancel"
+"Copy All the registered data to             "
+"order data.                                 "
+SEL=00005
+" Save "
+"Cancel"
+"Save all unit together.                     "
+"Is it ok                                    "
+SEL=00006
+"Overwr"
+"Cancel"
+"This unit data has already been used        "
+"Insert new data ?                           "
+SEL=00007
+"Overwr"
+"Cancel"
+"This data has already been used in master   "
+"Insert new data ?                           "
+SEL=00008
+" Read "
+"Cancel"
+"This unit file has already read             "
+"Read data ?                                 "
+SEL=00009
+"Close "
+"Cancel"
+"Unit data has revised points                "
+"Close this unit ?                           "
+SEL=00010
+" Yes  "
+"  No  "
+"Insert floppy disk ?                        "
+"                                            "
+SEL=00011
+" Yes  "
+"  No  "
+"Insert floppy disk ?                        "
+"                                            "
+SEL=00012
+" Yes  "
+"  No  "
+"Copy from existing project data             "
+"and make up use of this data.               "
+SEL=00013
+"Format"
+"Cancel"
+"Format disk for installation.               "
+"Insert floppy disk ?                        "
+SEL=00014
+" Yes  "
+"  No  "
+"Insert the installation  floppy disk 01.    "
+"                                            "
+SEL=00015
+" Yes  "
+"  No  "
+"Remove the installation floppy disk 01, and "
+"insert the disk 02.                         "
+SEL=00016
+" Yes  "
+"  No  "
+"Remove the installation floppy disk 02, and "
+"insert the disk 03.                         "
+SEL=00017
+"Start "
+"Cancel"
+"backup copy of MoldData in batch proce.     "
+"                                            "
+SEL=00018
+"Delete"
+"Cancel"
+"Delete Error log data.                      "
+"                                            "
+SEL=00019
+"  Ok  "
+"Cancel"
+"Insert a floppy disk.                       "
+"                                            "
+SEL=00020
+"  Ok  "
+"Cancel"
+"The disk full of MoldData. Can't copy.      "
+"Change floppy disk.                         "
+SEL=00021
+"Rewrit"
+"Cancel"
+"Incorrect the serial No.                    "
+"Rewrite?                                    "
+SEL=00022
+"Overwr"
+"Cancel"
+"Mold number already exists.                 "
+"Proceed with overwrite copy.                "
+SEL=00023
+"  Ok  "
+"Cancel"
+"Cannot create directory.                    "
+"The disk full of mold data.                 "
+SEL=00024
+"Counti"
+"Cancel"
+"Cannot ready the printer.                   "
+"Continue processing ?                       "
+SEL=00025
+"  Ok  "
+"Cancel"
+"Insert installation disk.                   "
+"The disk full of mold data.                 "
+SEL=00026
+"Reset "
+"Cancel"
+"Reset the casing data.                      "
+"Resetting initializes the casing data.      "
+SEL=00027
+"Reset "
+"Cancel"
+"Reset the current production data.          "
+"Reserring, starts production from beginning."
+SEL=00028
+"Cancel"
+"Counti"
+"Stop new mold setting.                      "
+"Stopping may disable Auto operation.        "
+SEL=00029
+" Yes  "
+"  No  "
+"Copy other mold data ?                      "
+"                                            "
+SEL=00030
+"  Ok  "
+"Cancel"
+"All order data has not been registerd yet.  "
+"Continue to regist.                         "
+SEL=00031
+"Overwr"
+"Cancel"
+"Project data has been exist in Hard disk.   "
+"Replace existing file ?                     "
+SEL=00032
+"Overwr"
+"Cancel"
+"The project file has been backupd yet.      "
+"Replace this project file ?                 "
+SEL=00033
+"Overwr"
+"Cancel"
+"Project data has been exist in Hard disk.   "
+"Replace existing file ?                     "
+SEL=00034
+"Clear "
+"Cancel"
+"Delete the files from installation disk.    "
+"                                            "
+SEL=00035
+" Read "
+"Cancel"
+"All unit files which are necessary for      "
+"convert has not read yet. Do you read ?     "
+SEL=00036
+" Yes  "
+"  No  "
+"Format complete.                            "
+"Format another disk.ÅH                      "
+SEL=00037
+"Remove"
+"Cancel"
+"Remove the below unit from the project.     "
+"[          ]                                "
+SEL=00038
+"Set up"
+"Cancel"
+"A system-installable disk is made.          "
+"                                            "
+SEL=00039
+"Rename"
+"Cancel"
+"When a project name is changed in ON-LINE,  "
+"compile and download is necessary.          "
+SEL=00040
+" Yes  "
+"  No  "
+"Not all of the teaching order is set.       "
+"Continue ti compile?                        "
+SEL=00041
+"      "
+"      "
+"                                            "
+"                                            "
+SEL=00042
+"      "
+"      "
+"                                            "
+"                                            "
+SEL=00043
+"      "
+"      "
+"                                            "
+"                                            "
+SEL=00044
+"      "
+"      "
+"                                            "
+"                                            "
+SEL=00045
+"      "
+"      "
+"                                            "
+"                                            "
+SEL=00046
+"      "
+"      "
+"                                            "
+"                                            "
+SEL=00047
+"      "
+"      "
+"                                            "
+"                                            "
+SEL=00048
+"      "
+"      "
+"                                            "
+"                                            "
+SEL=00049
+"      "
+"      "
+"                                            "
+"                                            "
+SEL=00050
+"      "
+"      "
+"                                            "
+"                                            "
+SEL=00051
+"      "
+"      "
+"                                            "
+"                                            "
+SEL=00052
+"      "
+"      "
+"                                            "
+"                                            "
+SEL=00053
+"      "
+"      "
+"                                            "
+"                                            "
+SEL=00054
+"      "
+"      "
+"                                            "
+"                                            "
+SEL=00055
+"      "
+"      "
+"                                            "
+"                                            "
+SEL=00056
+"      "
+"      "
+"                                            "
+"                                            "
+SEL=00057
+"      "
+"      "
+"                                            "
+"                                            "
+SEL=00058
+"      "
+"      "
+"                                            "
+"                                            "
+SEL=00059
+"      "
+"      "
+"                                            "
+"                                            "
+SEL=00060
+"      "
+"      "
+"                                            "
+"                                            "
+SEL=00061
+"Erase "
+"Cancel"
+"Delete Error Data ?                         "
+"                                            "
+SEL=00062
+"Delete"
+"Cancel"
+"Delete Movement Command?                    "
+"                                            "
+SEL=00063
+"Delete"
+"Cancel"
+"Delete this sub routine.                    "
+"                                            "
+SEL=00064
+"Delete"
+"Cancel"
+"Delete this sub routine from table.         "
+"                                            "
+SEL=00065
+"      "
+"      "
+"                                            "
+"                                            "
+SEL=00066
+"      "
+"      "
+"                                            "
+"                                            "
+SEL=00067
+"      "
+"      "
+"                                            "
+"                                            "
+SEL=00068
+"      "
+"      "
+"                                            "
+"                                            "
+SEL=00069
+"      "
+"      "
+"                                            "
+"                                            "
+SEL=00070
+"      "
+"      "
+"                                            "
+"                                            "
+

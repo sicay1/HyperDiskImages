@@ -1,0 +1,626 @@
+BUNDLE      FILENAME        DISK      DIRECTORY     DESCRIPTION
+---------------------------------------------------------------------------------------------
+-           $DISP.SYS       1         ~             DOS/V display driver
+-           $FONT.SYS       1         ~             DOS/V font driver
+-           $JPNHN16.FNT    1         ~             DOS/V SBCS font file (8x16)
+-           $JPNHN19.FNT    1         ~             DOS/V SBCS font file (8x19)
+-           $JPNZN16.FNT    1         ~             DOS/V DBCS font file (16x16)
+-           ATTRIB.EXE      1         ~             File attribute utility
+-           AUTOEXEC.BAT    1         ~             DOS system configuration file
+-           CHKDSK.COM      1         ~             Check disk integrity utility
+-           CHOICE.COM      1         ~             Choice utility
+-           COMMAND.COM     1         ~             Command interpreter
+-           CONFIG.SYS      1         ~             DOS system configuration file
+-           COUNTRY.SYS     1         ~             Country support
+-           DISKCOPY.COM    1         ~             Disk copy utility
+-           DOSV.INI        2         ~             DOS/V initialization file
+-           DSPX.EXE        2         ~             DSPXVGA setup program
+-           DSPXVGA.EXE     2         ~             subset of DOS/V extension
+-           DSPXVGA.PRO     2         ~             DSPXVGA profile
+-           E.EX            1         ~             E Editor program file (English)
+-           E.EXE           1         ~             E Editor program
+-           E.INI           1         ~             E initialization file
+-           EHELP.HLP       1         ~             Help for E editor (English)
+-           EV.EX           1         ~             E editor program file (Japanese)
+-           EVHELP.HLP      1         ~             E editor help file (Japanese)
+-           FDISK.COM       1         ~             Fixed disk partition utility
+-           FIXCHGLN.COM    1         ~             Hardware fix for machines with defective change line
+-           FIXINT40.COM    1         ~             BIOS modification program when XDF does not work
+-           FORMAT.COM      1         ~             Disk format utility
+-           IBMBIO.COM      1         ~             PC DOS system file
+-           IBMDOS.COM      1         ~             PC DOS system file
+-           KEYB.COM        1         ~             Country keyboard support TSR
+-           KEYBAX.COM      2         ~             KEYB for AX keyboards
+-           KEYBJ3.COM      2         ~             KEYB for J3100 keyboards
+-           KEYBOARD.SYS    1         ~             Country keyboard support
+-           MEM.EXE         1         ~             Memory reporting utility
+-           MESSAGE.BIN     1         ~             PC DOS Setup message file
+-           MESSAGE2.BIN    1         ~             PC DOS Setup message file
+-           MESSAGE3.BIN    1         ~             PC DOS Setup message file
+-           MEUTOINI.EXE    1         ~             part of SETUP
+-           README.TXT      1         ~             Latest information about PC DOS or Stacker
+-           SETUP.COM       1         ~             PC DOS Setup program
+-           SETUP.INI       1         ~             PC DOS Setup initialization file
+-           SETUP.MSG       1         ~             PC DOS Setup message file
+-           SETUP1.OVL      1         ~             PC DOS Setup overlay
+-           SETUP2.OVL      1         ~             PC DOS Setup overlay
+-           SETUP2.TXT      1         ~             PC DOS Setup message file
+-           SETUP2J.TXT     1         ~             PC DOS Setup message file
+-           SETUP3.OVL      1         ~             PC DOS Setup overlay
+-           SETUP4.OVL      1         ~             part of SETUP
+-           SETUPJ.MSG      1         ~             PC DOS Setup message file
+-           SYS.COM         1         ~             Copy system files utility
+-           UNPACK2.EXE     1         ~             Unpacks files from PC DOS 7.0 diskettes
+-           WINA20.386      1         ~             Runs Windows 3.0 in enhanced mode
+-           XDF.COM         1         ~             Enables an XDF diskette to be viewed
+-           XDFCOPY.EXE     1         ~             Disk copy utility for XDF diskettes
+AVD1        CONTACT.LST     5         \             IBM Antivirus contains service and update information
+AVD1        IBMAVD.EXE      5         \             IBM Antivirus main antivirus program
+AVD1        IBMAVD01.HLP    5         \             IBM Antivirus help file
+AVD1        IBMAVD02.HLP    5         \             IBM Antivirus help file
+AVD1        IBMAVD03.HLP    5         \             IBM Antivirus help file
+AVD1        IBMAVD04.HLP    5         \             IBM Antivirus help file
+AVD1        IBMAVD05.HLP    5         \             IBM Antivirus help file
+AVD1        IBMAVD06.HLP    5         \             IBM Antivirus help file
+AVD1        IBMAVD07.HLP    5         \             IBM Antivirus help file
+AVD1        IBMAVD08.HLP    5         \             IBM Antivirus help file
+AVD1        IBMAVSP.EXE     5         \             IBM Antivirus IBMAV stand-alone program
+AVD2        IBMAVD09.HLP    4         \             IBM Antivirus help file
+AVD2        IBMAVD10.HLP    4         \             IBM Antivirus help file
+AVD2        IBMAVD11.HLP    4         \             IBM Antivirus help file
+AVD2        IBMAVDQ.EXE     4         \             IBM Antivirus program that determines if IBMAVD should be run
+AVD2        IBMAVDR.BAT     4         \             IBM Antivirus batch file called by AUTOEXEC.BAT to run antivirus
+AVD2        IBMAVSH.COM     4         \             IBM Antivirus shield program
+AVD2        LOCAL.MSG       4         \             IBM Antivirus text file, contains virus clean-up information
+AVD2        PALETTE.AVD     4         \             IBM Antivirus screen color information
+AVD2        PRODINFO.LST    4         \             IBM Antivirus text file, product information
+AVD2        SHSIG.LST       4         \             IBM Antivirus virus signature file
+AVD2        TUTORIAL.LST    4         \             IBM Antivirus tutorial
+AVD2        VERV.VDB        4         \             IBM Antivirus binary database for disinfecting purposes
+AVD2        VIRINFO.LST     4         \             IBM Antivirus text file containing virus information
+AVD2        VIRSIG.LST      4         \             IBM Antivirus binary file containing virus signatures
+AVD2        VIRUS.LST       4         \             IBM Antivirus text file of virus names
+AVD3        ADMIN.PRF       3         \             IBM Antivirus profile
+AVD3        AUTORUN.PRF     3         \             IBM Antivirus profile for automatic execution
+AVD3        DEFAULT.PRF     3         \             IBM Antivirus profile
+AVS1        DEFAULT.PRF     2         \PS2\         IBM Antivirus profile
+AVS1        IBMAVD.EXE      2         \PS2\         IBM Antivirus main antivirus program
+AVS1        IBMAVD01.HLP    2         \PS2\         IBM Antivirus help file
+AVS1        IBMAVD02.HLP    2         \PS2\         IBM Antivirus help file
+AVS1        IBMAVD03.HLP    2         \PS2\         IBM Antivirus help file
+AVS1        IBMAVD04.HLP    2         \PS2\         IBM Antivirus help file
+AVS1        IBMAVD05.HLP    2         \PS2\         IBM Antivirus help file
+AVS1        IBMAVD06.HLP    2         \PS2\         IBM Antivirus help file
+AVS1        IBMAVD07.HLP    2         \PS2\         IBM Antivirus help file
+AVS1        IBMAVD08.HLP    2         \PS2\         IBM Antivirus help file
+AVS1        IBMAVSP.EXE     2         \PS2\         IBM Antivirus IBMAV stand-alone program
+AVS2        IBMAVD09.HLP    3         \PS2\         IBM Antivirus help file
+AVS2        IBMAVD10.HLP    3         \PS2\         IBM Antivirus help file
+AVS2        IBMAVD11.HLP    3         \PS2\         IBM Antivirus help file
+AVS2        IBMAVDQ.EXE     3         \PS2\         IBM Antivirus program that determines if IBMAVD should be run
+AVS2        IBMAVDR.BAT     3         \PS2\         IBM Antivirus batch file called by AUTOEXEC.BAT to run antivirus
+AVS2        IBMAVSH.COM     3         \PS2\         IBM Antivirus shield program
+AVS2        LOCAL.MSG       3         \PS2\         IBM Antivirus text file, contains virus clean-up information
+AVS2        PALETTE.AVD     3         \PS2\         IBM Antivirus screen color information
+AVS2        PRODINFO.LST    3         \PS2\         IBM Antivirus text file, product information
+AVS2        SHSIG.LST       3         \PS2\         IBM Antivirus virus signature file
+AVS2        TUTORIAL.LST    3         \PS2\         IBM Antivirus tutorial
+AVS2        VERV.VDB        3         \PS2\         IBM Antivirus binary database for disinfecting purposes
+AVS2        VIRINFO.LST     3         \PS2\         IBM Antivirus text file containing virus information
+AVS2        VIRSIG.LST      3         \PS2\         IBM Antivirus binary file containing virus signatures
+AVS2        VIRUS.LST       3         \PS2\         IBM Antivirus text file of virus names
+AVS3        ADMIN.PRF       3         \PS2\         IBM Antivirus profile
+AVS3        AUTORUN.PRF     3         \PS2\         IBM Antivirus profile for automatic execution
+AVS3        CONTACT.LST     3         \PS2\         IBM Antivirus contains service and update information
+BACKUPD1    CPB1.OVL        7         \SYSTEM\      CPBACKUP overlay, floppy backup and restore
+BACKUPD1    CPB2.OVL        7         \SYSTEM\      CPBACKUP overlay, floppy backup and restore
+BACKUPD1    CPB3.OVL        7         \SYSTEM\      CPBACKUP overlay, floppy backup and restore high/medium speed
+BACKUPD1    CPB4.OVL        7         \SYSTEM\      CPBACKUP overlay, floppy backup and restore high/medium speed
+BACKUPD1    CPB5.OVL        7         \SYSTEM\      CPBACKUP overlay, history file processing
+BACKUPD1    CPB6.OVL        7         \SYSTEM\      CPBACKUP overlay, format floppies for low speed backup
+BACKUPD1    CPBA1540.OVL    7         \SYSTEM\      CPBACKUP overlay, SCSI or QIC-02/36 tape support
+BACKUPD1    CPBA1640.OVL    7         \SYSTEM\      CPBACKUP overlay
+BACKUPD1    CPBACKUP.EXE    7         \             CPBACKUP full screen backup program
+BACKUPD1    CPBACKUP.MSG    7         \SYSTEM\      CPBACKUP message file
+BACKUPD1    CPBASPI.OVL     7         \SYSTEM\      CPBACKUP overlay
+BACKUPD1    CPBCE.OVL       7         \SYSTEM\      CPBACKUP overlay
+BACKUPD1    CPBCP.OVL       7         \SYSTEM\      CPBACKUP overlay
+BACKUPD1    CPBDIR.EXE      7         \             CPBACKUP find info for high/medium speed disks
+BACKUPD1    CPBFMTB.OVL     7         \SYSTEM\      CPBACKUP overlay
+BACKUPD1    CPBFMTR.OVL     7         \SYSTEM\      CPBACKUP overlay
+BACKUPD1    CPBH.OVL        7         \SYSTEM\      CPBACKUP overlay, online help engine
+BACKUPD1    CPBIBMPS.OVL    7         \SYSTEM\      CPBACKUP overlay, IBM SCSI tape drive support
+BACKUPD2    CPBACKUP.HLP    3         \SYSTEM\      CPBACKUP online help
+BACKUPD2    CPBNWLIB.OVL    3         \SYSTEM\      CPBACKUP overlay, SCSI or QIC-02/38 tape support for Novell
+BACKUPD2    CPBQ3.OVL       3         \SYSTEM\      CPBACKUP overlay, QIC-40/80 tape support
+BACKUPD2    CPBQ4.OVL       3         \SYSTEM\      CPBACKUP overlay
+BACKUPD2    CPBQ5.OVL       3         \SYSTEM\      CPBACKUP overlay
+BACKUPD2    CPBSCSI.OVL     3         \SYSTEM\      CPBACKUP overlay
+BACKUPD2    CPBSDEV.OVL     3         \SYSTEM\      CPBACKUP overlay
+BACKUPD2    CPBT3.OVL       3         \SYSTEM\      CPBACKUP overlay
+BACKUPD2    CPBT4.OVL       3         \SYSTEM\      CPBACKUP overlay
+BACKUPD2    CPBT5.OVL       3         \SYSTEM\      CPBACKUP overlay
+BACKUPD2    CPBV.OVL        3         \SYSTEM\      CPBACKUP overlay, virus scanning and reporting
+BACKUPD2    CPBX.OVL        3         \SYSTEM\      CPBACKUP overlay, express engine
+BACKUPD2    CPSMAIN.FNT     3         \SYSTEM\      CPBACKUP font data for pseudo graphics
+BACKUPD2    FILECHK.OVL     3         \SYSTEM\      CPBACKUP file integrity checker
+BACKUPD3    DAILY.SET       5         \DATA\        CPBACKUP pre-configured setup file
+BACKUPD3    DATABASE.SET    5         \DATA\        CPBACKUP pre-configured setup file
+BACKUPD3    SPREAD.SET      5         \DATA\        CPBACKUP pre-configured setup file
+BACKUPD3    WEEKLY.SET      5         \DATA\        CPBACKUP pre-configured setup file
+BACKUPD3    WORDPROC.SET    5         \DATA\        CPBACKUP pre-configured setup file
+BACKUPS1    CPB1.OVL        6         \PS2\SYSTEM\  CPBACKUP overlay, floppy backup and restore
+BACKUPS1    CPB2.OVL        6         \PS2\SYSTEM\  CPBACKUP overlay, floppy backup and restore
+BACKUPS1    CPB3.OVL        6         \PS2\SYSTEM\  CPBACKUP overlay, floppy backup and restore high/medium speed
+BACKUPS1    CPB4.OVL        6         \PS2\SYSTEM\  CPBACKUP overlay, floppy backup and restore high/medium speed
+BACKUPS1    CPB5.OVL        6         \PS2\SYSTEM\  CPBACKUP overlay, history file processing
+BACKUPS1    CPB6.OVL        6         \PS2\SYSTEM\  CPBACKUP overlay, format floppies for low speed backup
+BACKUPS1    CPBA1540.OVL    6         \PS2\SYSTEM\  CPBACKUP overlay, SCSI or QIC-02/36 tape support
+BACKUPS1    CPBA1640.OVL    6         \PS2\SYSTEM\  CPBACKUP overlay
+BACKUPS1    CPBACKUP.EXE    6         \PS2\         CPBACKUP full screen backup program
+BACKUPS1    CPBACKUP.MSG    6         \PS2\SYSTEM\  CPBACKUP message file
+BACKUPS1    CPBASPI.OVL     6         \PS2\SYSTEM\  CPBACKUP overlay
+BACKUPS1    CPBCE.OVL       6         \PS2\SYSTEM\  CPBACKUP overlay
+BACKUPS1    CPBCP.OVL       6         \PS2\SYSTEM\  CPBACKUP overlay
+BACKUPS1    CPBDIR.EXE      6         \PS2\         CPBACKUP find info for high/medium speed disks
+BACKUPS1    CPBFMTB.OVL     6         \PS2\SYSTEM\  CPBACKUP overlay
+BACKUPS1    CPBFMTR.OVL     6         \PS2\SYSTEM\  CPBACKUP overlay
+BACKUPS1    CPBH.OVL        6         \PS2\SYSTEM\  CPBACKUP overlay, online help engine
+BACKUPS1    CPBIBMPS.OVL    6         \PS2\SYSTEM\  CPBACKUP overlay, IBM SCSI tape drive support
+BACKUPS2    CPBACKUP.HLP    5         \PS2\SYSTEM\  CPBACKUP online help
+BACKUPS2    CPBNWLIB.OVL    5         \PS2\SYSTEM\  CPBACKUP overlay, SCSI or QIC-02/38 tape support for Novell
+BACKUPS2    CPBQ3.OVL       5         \PS2\SYSTEM\  CPBACKUP overlay, QIC-40/80 tape support
+BACKUPS2    CPBQ4.OVL       5         \PS2\SYSTEM\  CPBACKUP overlay
+BACKUPS2    CPBQ5.OVL       5         \PS2\SYSTEM\  CPBACKUP overlay
+BACKUPS2    CPBSCSI.OVL     5         \PS2\SYSTEM\  CPBACKUP overlay
+BACKUPS2    CPBSDEV.OVL     5         \PS2\SYSTEM\  CPBACKUP overlay
+BACKUPS2    CPBT3.OVL       5         \PS2\SYSTEM\  CPBACKUP overlay
+BACKUPS2    CPBT4.OVL       5         \PS2\SYSTEM\  CPBACKUP overlay
+BACKUPS2    CPBT5.OVL       5         \PS2\SYSTEM\  CPBACKUP overlay
+BACKUPS2    CPBV.OVL        5         \PS2\SYSTEM\  CPBACKUP overlay, virus scanning and reporting
+BACKUPS2    CPBX.OVL        5         \PS2\SYSTEM\  CPBACKUP overlay, express engine
+BACKUPS2    CPSMAIN.FNT     5         \PS2\SYSTEM\  CPBACKUP font data for pseudo graphics
+BACKUPS2    FILECHK.OVL     5         \PS2\SYSTEM\  CPBACKUP file integrity checker
+BACKUPS3    DAILY.SET       3         \PS2\DATA\    CPBACKUP pre-configured setup file
+BACKUPS3    DATABASE.SET    3         \PS2\DATA\    CPBACKUP pre-configured setup file
+BACKUPS3    SPREAD.SET      3         \PS2\DATA\    CPBACKUP pre-configured setup file
+BACKUPS3    WEEKLY.SET      3         \PS2\DATA\    CPBACKUP pre-configured setup file
+BACKUPS3    WORDPROC.SET    3         \PS2\DATA\    CPBACKUP pre-configured setup file
+DCT1        $IBMBASE.DCT    7         \             IBMMKKV dictionary
+DCT1        $IBMCNNC.DCT    7         \             IBMMKKV dictionary
+DCT1        IBMZIPC2.DCT    7         \             IBMMKKV dictionary
+DCT2        $FZKMKJL.DCT    5         \             IBMMKKV dictionary
+DCT2        $USRDICT.DCT    5         \             IBMMKKV user dictionary
+DCT3        $SYS1DIC.FNT    7         \             IBMSKK dictionary
+DOS0        $IAESKK.SYS     4         \             IBMSKK FEP
+DOS0        $IAS.SUB        4         \             IAS part of IAS
+DOS0        $IAS.SYS        4         \             part of IAS 
+DOS0        $PRN.SYS        4         \             DOS/V printer driver
+DOS0        ANSI.SYS        4         \             Alternate console device driver
+DOS0        CHEV.EXE        4         \             CHEV command
+DOS0        DEBUG.COM       4         \             Program debug utility
+DOS0        DISKCOMP.COM    4         \             Disk compare utility
+DOS0        DOSKEY.COM      4         \             Key retrieval TSR
+DOS0        EMM386.EXE      4         \             Memory manager
+DOS0        EPCLESCP.COM    4         \             DOS/V printer driver
+DOS0        EPCLIBM.COM     4         \             DOS/V printer driver
+DOS0        EPRNESCP.COM    4         \             DOS/V printer driver
+DOS0        EPRNIBM.COM     4         \             DOS/V printer driver
+DOS0        GRAPHICS.COM    4         \             Graphics print screen utility
+DOS0        GRAPHICS.PRO    4         \             Profile for GRAPHICS.COM
+DOS0        HIMEM.SYS       4         \             High memory device driver
+DOS0        INTERLNK.EXE    4         \             Data transfer utility (client)
+DOS0        KEYBIBM.COM     4         \             KEYB for IBM keyboards
+DOS0        MODE.COM        4         \             Mode utility
+DOS0        MORE.COM        4         \             More utility
+DOS0        PRINT.COM       4         \             Print utility
+DOS0        PRNESCP.COM     4         \             DOS/V printer driver
+DOS0        PRNIBM.COM      4         \             DOS/V printer driver
+DOS0        SETVER.EXE      4         \             Set DOS version device driver
+DOS0        SORT.EXE        4         \             Sort utility
+DOS0        XCOPY.EXE       4         \             XCOPY utility
+DOS1        ACALC.EXE       8         \             Calculator utility
+DOS1        APPEND.EXE      8         \             Append utility
+DOS1        ASSIGN.COM      8         \             Drive assignment utility
+DOS1        BACKUP.COM      8         \             Backup DOS 5.0 and earlier backups
+DOS1        BROWSE.COM      8         \             Invoke's E's browse function
+DOS1        CMDREF.INF      9         \             PC DOS 7.0 Online Command Reference
+DOS1        CMDREF.INF      9         \PS2\         PC DOS 7.0 Online Command Reference
+DOS1        CMOSCLK.SYS     8         \             Alternate clock device driver
+DOS1        CPB.OVL         8         \PS2\SYSTEM\  SCHEDULE/RAMBOOST/UNDELETE overlay file
+DOS1        CPB.OVL         8         \SYSTEM\      SCHEDULE/RAMBOOST/UNDELETE overlay file
+DOS1        CPS.HLP         8         \PS2\SYSTEM\  SCHEDULE/RAMBOOST/UNDELETE help file
+DOS1        CPS.HLP         8         \SYSTEM\      SCHEDULE/RAMBOOST/UNDELETE help file
+DOS1        CPSCHED.EXE     8         \             TSR for schedule
+DOS1        CPSCHED.EXE     8         \PS2\         TSR for schedule
+DOS1        CPSCHED.OVL     8         \PS2\SYSTEM\  Overlay for schedule
+DOS1        CPSCHED.OVL     8         \SYSTEM\      Overlay for schedule
+DOS1        CPSHELP.OVL     8         \PS2\SYSTEM\  SCHEDULE/RAMBOOST/UNDELETE overlay file
+DOS1        CPSHELP.OVL     8         \SYSTEM\      SCHEDULE/RAMBOOST/UNDELETE overlay file
+DOS1        CRC.EXE         8         \             Cyclic redundancy check
+DOS1        DATAMON.EXE     8         \             TSR for tracker and sentry undelete protection
+DOS1        DDPOPUP.EXE     8         \             Provides DOS docking support under Windows
+DOS1        DEFRAG.EXE      8         \             File defragment utility
+DOS1        DEFRAG.EXE      8         \PS2\         File defragment utility
+DOS1        DEFRAG.HLP      8         \             Help for defrag
+DOS1        DEFRAG.HLP      8         \PS2\         Help for defrag
+DOS1        DELTREE.EXE     8         \             Tree delete utility
+DOS1        DISPLAY.SYS     8         \             Country support
+DOS1        README.INF      9         \             Latest information about PC DOS
+DOS2        DOSDOCK.COM     8         \             Docking support for enabled mobile systems
+DOS2        DOSERROR.INF    9         \             DOS error messages online book
+DOS2        DOSERROR.INF    9         \PS2\         DOS error messages online book
+DOS2        DOSREXX.INF     9         \             REXX online book
+DOS2        DOSREXX.INF     9         \PS2\         REXX online book
+DOS2        DRIVER.SYS      8         \             Alternate DASD device driver
+DOS2        DRVLOCK.EXE     8         \             Electronic drive locking utility
+DOS2        DYNALOAD.COM    8         \             Dynamically loads a device driver from command prompt
+DOS2        EGA.CPI         8         \             Code page support for EGA/VGA and above
+DOS2        EGA.SYS         8         \             EGA register tracking utility
+DOS2        EGAX.CPI        8         \             Code page support for EGA/VGA and above
+DOS2        EJECT.EXE       8         \             Electronic disk eject utility
+DOS2        FC.EXE          8         \             File compare utility
+DOS2        FDISKUS.COM     8         \             FDISK for English mode
+DOS2        FILEUP.COM      8         \             FILEUP loader
+DOS2        FILEUP.EXE      8         \             File Update file synchronization utility
+DOS2        FILEUP.EXE      8         \PS2\         File Update file synchronization utility
+DOS2        FILEUP.HLP      8         \             File Update help file
+DOS2        FILEUP.HLP      8         \PS2\         File Update help file
+DOS2        FIND.EXE        8         \             Find utility
+DOS2        HELP.COM        8         \             Quick access to online Command Reference
+DOS2        INTERSVR.EXE    8         \             Data transfer utility (server)
+DOS2        ISO.CPI         8         \             ISO code page support for VGA and above
+DOS2        JOIN.EXE        8         \             Join utility
+DOS2        LABEL.COM       8         \             Disk volume label utility
+DOS3        LIBPCT01.DLO    5         \PS2\SYSTEM\  SCHEDULE/RAMBOOST/UNDELETE overlay file
+DOS3        LIBPCT01.DLO    5         \SYSTEM\      SCHEDULE/RAMBOOST/UNDELETE overlay file
+DOS3        LOADFIX.COM     5         \             Load fix utility
+DOS3        MONOUMB.386     5         \             VxD driver for monochrome region
+DOS3        MOUSE.COM       5         \             Mouse driver TSR
+DOS3        MOVE.EXE        5         \             File and directory move utility
+DOS3        MSCDEX.EXE      5         \             CD ROM file system for CD ROM device drivers
+DOS3        NLSFUNC.EXE     5         \             Country support driver
+DOS3        POWER.EXE       5         \             Advanced power management device driver
+DOS3        QCONFIG.EXE     5         \             Query system configuration utility
+DOS3        RAMBOOST.EXE    5         \             UMB memory optimize device driver
+DOS3        RAMBOOST.EXE    5         \PS2\         UMB memory optimize device driver
+DOS3        RAMBOOST.INI    5         \DATA\        Ramboost INI file
+DOS3        RAMBOOST.INI    5         \PS2\DATA\    Ramboost INI file
+DOS3        RAMDRIVE.SYS    5         \             Ram disk device driver
+DOS3        RAMSETUP.EXE    5         \             UMB memory optimize utility
+DOS3        RAMSETUP.EXE    5         \PS2\         UMB memory optimize utility
+DOS3        RAMSETUP.HLP    5         \PS2\SYSTEM\  Ramsetup help file
+DOS3        RAMSETUP.HLP    5         \SYSTEM\      Ramsetup help file
+DOS3        RAMSETUP.INI    5         \DATA\        Ramsetup INI file
+DOS3        RAMSETUP.INI    5         \PS2\DATA\    Ramsetup INI file
+DOS3        REPLACE.EXE     5         \             File replace utility
+DOS3        RESTORE.COM     5         \             Restore DOS 5.0 and earlier backups
+DOS3        SCHEDULE.EXE    5         \             Program schedule utility
+DOS3        SCHEDULE.EXE    5         \PS2\         Program schedule utility
+DOS3        SCHEDULE.HLP    5         \PS2\SYSTEM\  Program schedule help file
+DOS3        SCHEDULE.HLP    5         \SYSTEM\      Program schedule help file
+DOS3        SCHEDULE.OV1    5         \PS2\SYSTEM\  Program schedule overlay
+DOS3        SCHEDULE.OV1    5         \SYSTEM\      Program schedule overlay
+DOS4        865.CPI         6         \             Video code page support for 865
+DOS4        912.CPI         6         \             Video code page support for 912
+DOS4        915.CPI         6         \             Video code page support for 915
+DOS4        README.TXT      6         \PS2\         Latest information about PC DOS or Stacker
+DOS4        SHARE.EXE       6         \             File share support
+DOS4        SMARTDRV.EXE    6         \             Disk cache TSR and device driver
+DOS4        SUBST.EXE       6         \             Substitute utility
+DOS4        TREE.COM        6         \             Tree display utility
+DOS4        UMBCGA.SYS      6         \             UMBs from CGA RAM device driver
+DOS4        UMBEMS.SYS      6         \             UMBs from EMS RAM device driver
+DOS4        UMBHERC.SYS     6         \             UMBs from Hercules RAM device driver
+DOS4        UMBMONO.SYS     6         \             UMBs from mono adapter RAM device driver
+DOS4        UNDEL.HLP       6         \             UNDELETE help file
+DOS4        UNDEL.HLP       6         \PS2\         UNDELETE help file
+DOS4        UNDELETE.EXE    6         \             File undelete utility
+DOS4        UNDELETE.EXE    6         \PS2\         File undelete utility
+DOS4        UNFORMAT.COM    6         \             Disk unformat utility
+DOS4        VIEW.COM        6         \             VIEW command loader
+DOS4        VIEW.EXE        6         \             DOS online view facility
+DOS4        VIEW.EXE        6         \PS2\         DOS online view facility
+DOS4        VIEW.HLP        6         \PS2\SYSTEM\  UNDELETE/CPBACKUP viewer help
+DOS4        VIEW.HLP        6         \SYSTEM\      UNDELETE/CPBACKUP viewer help
+DOS4        VIEW.LIB        6         \PS2\SYSTEM\  UNDELETE/CPBACKUP viewer code
+DOS4        VIEW.LIB        6         \SYSTEM\      UNDELETE/CPBACKUP viewer code
+DOS4        VIEW.OHP        6         \             Context sensitive help for VIEW.EXE
+DOS4        VIEW.OHP        6         \PS2\         Context sensitive help for VIEW.EXE
+DOS4        VIEW.OVL        6         \PS2\SYSTEM\  UNDELETE/CPBACKUP viewer overlay
+DOS4        VIEW.OVL        6         \SYSTEM\      UNDELETE/CPBACKUP viewer overlay
+DOSV        $ANSI.SYS       2         \             Console driver
+DOSV        32705250.COM    2         \             SWITCH part of SWITCH
+DOSV        CPBACKUP.COM    2         \             CPBACKUP loader
+DOSV        DEFRAG.COM      2         \             DEFRAG loader
+DOSV        ESCP12.COM      2         \             DOS/V utility
+DOSV        HARDBOOT.COM    2         \             SWITCH part of SWITCH
+DOSV        IBMAVD.COM      2         \             IBMAVD loader
+DOSV        INSTANCE.COM    2         \             DOS/V utility
+DOSV        IPLDRIVE.COM    2         \             SWITCH part of SWITCH
+DOSV        KKCFUNC.SYS     2         \             FEP driver
+DOSV        RAMSETUP.COM    2         \             RAMSETUP loader
+DOSV        SCHEDULE.COM    2         \             SCHEDULE loader
+DOSV        SETUPV.EXE      2         \             DOS/V setup
+DOSV        SETUPV.INF      2         \             SETUPV part of SETUPV
+DOSV        SETUPV.OVL      2         \             part of SETUP
+DOSV        SWITCH.BAT      2         \             SWITCH Swithc Japanese and English mode
+DOSV        UNDELETE.COM    2         \             UNDELETE loader
+DOSV        USRFNT.EXE      2         \             User font utility
+FDD12       $FDD12.SYS      4         \             3.5" 1.2MB floppy drvier
+FDD12       CHKFD12.COM     4         \             3.5" 1.2MB floppy support
+FDD12       FORMAT12.COM    4         \             3.5" 1.2MB floppy format
+FONT1       $JPNHN12.FNT    4         \             DOS/V SBCS font file (6x12)
+FONT1       $JPNHN24.FNT    4         \             DOS/V SBCS font file (12x24)
+FONT1       $JPNZN12.FNT    4         \             DOS/V DBCS font file (12x12)
+FONT1       $JPNZN24.FNT    4         \             DOS/V DBCS font file (24x24)
+FONT1       $JPNZN24.IBM    4         \             DOS/V DBCS font file (24x24)
+FONT2       $SYS1Z16.FNT    5         \             DOS/V DBCS user font file (16 x 16)
+FONT2       $SYS1Z24.FNT    5         \             DOS/V DBCS user font file (24 x 24)
+MKK         IBMMKKV.EXE     7         \             IBMMKK FEP
+MKK         MULTDICT.PRO    7         \             IBMMKK profile
+MKK         SETUPMKK.EXE    7         \             IBMMKK setup
+MKK         USERDICT.EXE    7         \             IBMMKK user dictionary maintenance
+PCM1        CNFIGNAM.EXE    7         \PCM\         PCMCIA specifies boot configuration in PCM.INI
+PCM1        PCM.DBC         7         \PCM\         PCMCIA part of PCMCIA
+PCM1        PCM.EXE         7         \PCM\         PCMCIA PCM+ configuration program
+PCM1        PCM.NEW         7         \PCM\         PCMCIA initialization file for PCMSETUP and PCM
+PCM1        PCM.SBC         7         \PCM\         PCMCIA part of PCMCIA
+PCM1        PCMATA.SYS      7         \PCM\         PCMCIA virtual driver for FAT structured devices
+PCM1        PCMCS.EXE       7         \PCM\         PCMCIA Card Services 2.1
+PCM1        PCMDINST.EXE    7         \             Deinstall previous PCMCIA versions
+PCM1        PCMFDISK.DBC    7         \PCM\         PCMCIA part of PCMCIA
+PCM1        PCMFDISK.EXE    7         \PCM\         PCMCIA FDISK utility to partition SRAM cards
+PCM1        PCMFDISK.SBC    7         \PCM\         PCMCIA part of PCMCIA
+PCM1        PCMFFCS.EXE     7         \PCM\         PCMCIA flash file support interface to PCM+
+PCM1        PCMGROUP.NEW    7         \PCM\         PCMCIA file
+PCM1        PCMINST.DBC     7         \PCM\         PCMCIA part of PCMCIA
+PCM1        PCMINST.EXE     7         \PCM\         PCMCIA installation utility for PCM+
+PCM1        PCMINST.SBC     7         \PCM\         PCMCIA part of PCMCIA
+PCM1        PCMINST.TXT     7         \PCM\         PCMCIA PCMSETUP's screen text
+PCM1        PCMINSTJ.TXT    7         \PCM\         PCMCIA part of PCMCIA
+PCM1        PCMRESET.EXE    7         \             Associate program for PCMDINST
+PCM1        PCMSSCL.EXE     7         \PCM\         PCMCIA Socket Services 2.1 (Cirrus Logic Controller)
+PCM1        PCMSSDB.EXE     7         \PCM\         PCMCIA Socket Services 2.1 (Databook Controller)
+PCM1        PCMSSIT.EXE     7         \PCM\         PCMCIA Socket Services 2.1 (Intel Controller)
+PCM1        PCMSSRC.EXE     7         \PCM\         PCMCIA Socket Services 2.1 (Ricoh Controller)
+PCM2        PCMRMAN.DBC     2         \PCM\         PCMCIA part of PCMCIA support
+PCM2        PCMRMAN.EXE     2         \PCM\         PCMCIA PCM+ Resource Manager
+PCM2        PCMRMAN.SBC     2         \PCM\         PCMCIA part of PCMCIA support
+PCM2        PCMRMAN.SYS     2         \PCM\         PCMCIA PCM+ Resource Manager Device Driver
+PCM2        PCMSCD.EXE      2         \PCM\         PCMCIA super client driver
+PCM2        PCMSETUP.DBC    2         \PCM\         PCMCIA part of PCMCIA support
+PCM2        PCMSETUP.EXE    2         \PCM\         PCMCIA setup utility for PCM+
+PCM2        PCMSETUP.SBC    2         \PCM\         PCMCIA part of PCMCIA support
+PCM2        PCMVCD.386      2         \PCM\         PCMCIA Windows VxD driver for PCMCIA fax/modem cards
+PCM2        PCMWARN.EXE     2         \PCM\         PCMCIA warns that Windows is in standard mode
+PCM2        PCMWIN.EXE      2         \PCM\         PCMCIA Windows PCM and information utilities
+PCM2        PCMWIN.HLP      2         \PCM\         PCMCIA help file for Windows PCM information util
+PCM2        PCMWIND.DLL     2         \PCM\         PCMCIA Windows PCM and information utilities DLL
+PEN1        I15C2CNV.EXE    9         \SYSTEM\      PenDOS part of PENDOS
+PEN1        LIMREC.EXP      9         \SYSTEM\      PenDOS stub recognition engine
+PEN1        PEN.EXE         9         \SYSTEM\      PenDOS point and button routines TSR
+PEN1        PENDCHK.EXE     9         \SYSTEM\      PenDOS part of PENDOS
+PEN1        PENDEV.SYS      9         \SYSTEM\      PenDOS pen support device driver
+PEN1        PENDMODE.EXE    9         \SYSTEM\      PenDOS part of PENDOS
+PEN1        PENDOS.CFG      9         \SYSTEM\      PenDOS pen configuration file of gestures for Apps
+PEN1        PINK.EXE        9         \SYSTEM\      PenDOS electronic ink
+PEN1        PKEY5.EXE       9         \SYSTEM\      PenDOS part of PENDOS
+PEN1        PKEYUS.EXE      9         \SYSTEM\      PenDOS virtual keyboard, English
+PEN1        PMOUSE.EXE      9         \SYSTEM\      PenDOS mouse emulation
+PEN1        PSETUP.EXE      9         \SYSTEM\      PenDOS pen setup program
+PEN1        PSYS.EXE        9         \SYSTEM\      PenDOS pen support TSR
+PEN1        PWW.EXE         9         \SYSTEM\      PenDOS pen support TSR
+PEN1        PWWUS.EXE       9         \SYSTEM\      PenDOS part of PENDOS
+PEN1        TRANKEY.EXE     9         \SYSTEM\      PenDOS part of PENDOS
+PEN1        VLOAD.EXE       9         \SYSTEM\      PenDOS loads recognition engine into expanded mem
+PEN2        TD3125.EXE      3         \SYSTEM\      PenDOS NCR 3125 and NCR 3130
+PEN2        TDACE5X5.EXE    3         \SYSTEM\      PenDOS AceCAD Acecat opaque
+PEN2        TDAPPOIN.EXE    3         \SYSTEM\      PenDOS part of PENDOS
+PEN2        TDCALCMP.EXE    3         \SYSTEM\      PenDOS CalComp DisplayPad
+PEN2        TDCCDPAD.EXE    3         \SYSTEM\      PenDOS part of PENDOS
+PEN2        TDEWAC.EXE      3         \SYSTEM\      PenDOS Wacom HD648A
+PEN2        TDKURTA.EXE     3         \SYSTEM\      PenDOS Kurta XTG opaque
+PEN2        TDKVTS.EXE      3         \SYSTEM\      PenDOS part of PENDOS
+PEN2        TDMOUSE.EXE     3         \SYSTEM\      PenDOS mouse digitizer pad emulation
+PEN2        TDMSLATE.EXE    3         \SYSTEM\      PenDOS MicroSlate
+PEN2        TDMUTOH1.EXE    3         \SYSTEM\      PenDOS part of PENDOS
+PEN2        TDMUTOH2.EXE    3         \SYSTEM\      PenDOS part of PENDOS
+PEN2        TDPBCNT.EXE     3         \SYSTEM\      PenDOS Arthur Dent/Compaq
+PEN2        TDPBEXP.EXE     3         \SYSTEM\      PenDOS Arthur Dent/Zeos
+PEN2        TDPBTOP.EXE     3         \SYSTEM\      PenDOS Dauphin
+PEN2        TDPL100V.EXE    3         \SYSTEM\      PenDOS Wacom PL100V
+PEN2        TDSAMSNG.EXE    3         \SYSTEM\      PenDOS Samsung PenMaster
+PEN2        TDTP2523.EXE    3         \SYSTEM\      PenDOS IBM ThinkPad 2523
+PEN2        TDW510C.EXE     3         \SYSTEM\      PenDOS WACOM 510C opaque
+PS1         RSSTUB.COM      7         \             PS/1 4-quadrant screen
+REXX        REXX.EXE        2         \             REXX program interpreter
+REXX        REXXDUMP.EXE    2         \             REXX dumps the REXX variable pool
+REXX        RX.BAT          2         \             REXX interactively try REXX statements
+REXX        RXCHDIR.RX      2         \             REXX change to the specified directory
+REXX        RXCHDRV.RX      2         \             REXX change to the specified drive
+REXX        RXCLS.RX        2         \             REXX clear the screen
+REXX        RXCREATE.RX     2         \             REXX create the specified file
+REXX        RXCRSTAT.RX     2         \             REXX set the cursor state
+REXX        RXDELETE.RX     2         \             REXX delete the specified file
+REXX        RXDINFO.RX      2         \             REXX get info about the specified drive
+REXX        RXDOSVER.RX     2         \             REXX get the DOS version
+REXX        RXFINFO.RX      2         \             REXX get info about the specified file
+REXX        RXGETDIR.RX     2         \             REXX get the current directory on specified drive
+REXX        RXGETDRV.RX     2         \             REXX get the current drive
+REXX        RXGETKEY.RX     2         \             REXX get a keystroke optionally without echo
+REXX        RXGETMEM.RX     2         \             REXX get amount of free memory available
+REXX        RXGETPOS.RX     2         \             REXX get the cursor position
+REXX        RXISDIR.RX      2         \             REXX indicates whether filename is a file or directory
+REXX        RXMKDIR.RX      2         \             REXX make a subdirectory
+REXX        RXNETDRV.RX     2         \             REXX indicates whether drive is local or remote
+REXX        RXQSYS.RX       2         \             REXX query specified system info
+REXX        RXRMDIR.RX      2         \             REXX remove a subdirectory
+REXX        RXSCRSIZ.RX     2         \             REXX get the screen size
+REXX        RXSETPOS.RX     2         \             REXX set the cursor position
+REXX        RXSLEEP.RX      2         \             REXX delay for specified number of seconds
+REXX        RXWRSCR.RX      2         \             REXX write text directly to screen
+SHELLD1     DOSSHELL.COM    5         \             DOSSHELL swapper
+SHELLD1     DOSSHELL.EXE    5         \             DOSSHELL program
+SHELLD1     DOSSHELL.GRB    5         \             DOSSHELL part of DOSSHELL
+SHELLD1     DOSSHELL.HLP    5         \             DOSSHELL help file
+SHELLD1     DOSSHELL.VID    5         \             DOSSHELL part of DOSSHELL
+SHELLD1     DOSSWAP.EXE     5         \             DOSSHELL swapper
+SHELLD2     DOSSHELL.INI    3         \             SHELLD2  DOSSHELL config file
+SHELLS1     DOSSHELL.EXE    6         \PS2\         DOSSHELL program
+SHELLS1     DOSSHELL.GRB    6         \PS2\         DOSSHELL part of DOSSHELL
+SHELLS1     DOSSHELL.HLP    6         \PS2\         DOSSHELL help file
+SHELLS1     DOSSHELL.VID    6         \PS2\         DOSSHELL part of DOSSHELL
+SHELLS1     DOSSWAP.EXE     6         \PS2\         DOSSHELL swapper
+SHELLS2     DOSSHELL.INI    5         \PS2\         SHELLD2  DOSSHELL config file
+STAC1       AUTOSAVE.EXE    3         \STACKER\     STACKER stores updated versions of Stacker drive headers
+STAC1       CHECK.EXE       3         \STACKER\     STACKER detects any Stacker problems on the disk
+STAC1       CONFIG.EXE      3         \STACKER\     STACKER rebuilds your computer's configuration in STACKER.INI
+STAC1       DCONVRT2.EXE    3         \STACKER\     STACKER converts Doublespace or SuperStor/DS disk to Stacker drive
+STAC1       HCONVRT2.EXE    3         \STACKER\     STACKER updates an earlier Stacker drive to Stacker 4.01
+STAC1       PASSWD.EXE      3         \STACKER\     STACKER sets passwords for Stacker drives
+STAC1       REPAIR.EXE      3         \STACKER\     STACKER repairs Stacker drives
+STAC1       REPORT.EXE      3         \STACKER\     STACKER compression status of Stacker disk and its files
+STAC1       SCREATE.SYS     3         \STACKER\     STACKER used to create compressed RAM drives
+STAC1       SETUP.EXE       3         \STACKER\     STACKER creates more Stacker drives
+STAC1       SSETUP.EXE      3         \             STACKER starts setup of Stacker compression
+STAC1       STACFM.DLL      3         \STACKER\     STACKER file manager device driver for Windows
+STAC1       STACHIGH.SYS    3         \STACKER\     STACKER places Stacker driver in upper memory blocks
+STAC1       STACHOOK.DLL    3         \STACKER\     STACKER auxiliary device driver for Windows
+STAC1       STACLOAD.BIN    3         \STACKER\     STACKER component file
+STAC1       TUNER.EXE       3         \STACKER\     STACKER adjusts balance between compression and speed
+STAC1       UNCOMP2.EXE     3         \STACKER\     STACKER uncompresses all data stored in a Stacker drive
+STAC1       VSTACKER.386    3         \STACKER\     STACKER enables Stacker tools to run in Windows
+STAC2       AUTORCVR.COM    4         \STACKER\     STACKER keeps data safe when Setup is interrupted
+STAC2       CREATE.COM      4         \STACKER\     STACKER creates an empty Stacker drive using free disk space
+STAC2       DBLSPACE.COM    4         \STACKER\     STACKER enables DBLSPACE command line parameters
+STAC2       DCONVERT.COM    4         \STACKER\     STACKER converts Doublespace or SuperStor/DS disk to Stacker drive
+STAC2       DELFILE.BIN     4         \STACKER\     STACKER setup file
+STAC2       HCONVERT.COM    4         \STACKER\     STACKER updates an earlier Stacker drive to Stacker 4.01
+STAC2       REMOVDRV.COM    4         \STACKER\     STACKER deletes your Stacker drive
+STAC2       RESIZE.COM      4         \STACKER\     STACKER loads RESIZE2
+STAC2       RESIZE2.EXE     4         \STACKER\     STACKER to facilitate resizing the CVF
+STAC2       SDEFRAG.COM     4         \STACKER\     STACKER runs optimizer to defrag or recompress a Stacker drive
+STAC2       SDEFRAG2.EXE    4         \STACKER\     STACKER runs optimizer to defrag or recompress a Stacker drive
+STAC2       SETUP.OVL       4         \STACKER\     STACKER setup program
+STAC2       STAC.COM        4         \STACKER\     STACKER DOS menu program
+STAC2       STAC2.EXE       4         \STACKER\     STACKER DOS menu program
+STAC2       STACKER.COM     4         \STACKER\     STACKER displays status and mounts/unmounts Stacker drives
+STAC2       STACKER.EXE     4         \STACKER\     STACKER Stacker Anywhere
+STAC2       STACKER.HLP     4         \STACKER\     STACKER help file
+STAC2       STACKER2.BIN    4         \STACKER\     STACKER component file
+STAC2       STACWIN.EXE     4         \STACKER\     STACKER menu program for Windows
+STAC2       SYSINFO.EXE     4         \STACKER\     STACKER collects system information
+STAC2       UNCOMP.COM      4         \STACKER\     STACKER uncompresses all data stored in a Stacker drive
+STAC3       DPMS.EXE        8         \STACKER\     STACKER DOS protected memory server
+STAC3       README.TXT      8         \STACKER\     Latest information about PC DOS or Stacker
+STAC3       SCREXEC.EXE     8         \STACKER\     STACKER part of CREATE program
+STAC3       SCREXEC2.EXE    8         \STACKER\     STACKER part of CREATE program
+STAC3       SCREXEC3.EXE    8         \STACKER\     STACKER part of CREATE program
+STAC3       SDIR.EXE        8         \STACKER\     STACKER displays compression ratios for Stacker disk
+STAC3       SETUP.CFG       8         \STACKER\     STACKER setup configuration file
+STAC3       SETUP.SAF       8         \STACKER\     STACKER compressed file containing Stacker data files
+STAC3       SGROUP.EXE      8         \STACKER\     STACKER creates Stacker group in Windows
+STAC3       SREBOOT.BIN     8         \STACKER\     STACKER reboot program used by Stacker for Windows
+STAC3       STACKER.LBL     8         \STACKER\     STACKER install label file
+STAC3       STACTRN.SCR     8         \STACKER\     STACKER Windows screen saver
+STAC3       WINSWAP.CPL     8         \STACKER\     STACKER creates permanent swap file on a compressed drive
+STAC3       WINSWAP.EXE     8         \STACKER\     STACKER creates permanent swap file on a compressed drive
+STAC3       WINSWAP2.EXE    8         \STACKER\     STACKER creates permanent swap file on a compressed drive
+WBACKUP1    CPBNMI.386      2         \SYSTEM\      Windows CPBACKUP cps VxD (for micro-channel machines only)
+WBACKUP1    CPBVXD.386      2         \SYSTEM\      Windows CPBACKUP cps VxD
+WBACKUP1    NWNETAPI.DLL    2         \             Windows CPBACKUP NetWare support
+WBACKUP1    WNABSIO1.DLL    2         \             Windows CPBACKUP disk checking DLL
+WBACKUP1    WNBA1540.DLL    2         \SYSTEM\      Windows CPBACKUP dynalink library, SCSI or QIC tape support
+WBACKUP1    WNBA1640.DLL    2         \SYSTEM\      Windows CPBACKUP dynalink library, SCSI or QIC tape support
+WBACKUP1    WNBACKUP.EXE    2         \             Windows CPBACKUP backup program
+WBACKUP1    WNBASPI.DLL     2         \SYSTEM\      Windows CPBACKUP dynalink library
+WBACKUP1    WNBCE.DLL       2         \SYSTEM\      Windows CPBACKUP SCSI tape support dynalink library
+WBACKUP1    WNBCP.DLL       2         \SYSTEM\      Windows CPBACKUP compression dynalink library
+WBACKUP1    WNBFMTR.DLL     2         \SYSTEM\      Windows CPBACKUP local SCSI device support dynalink library
+WBACKUP1    WNBIBMPS.DLL    2         \SYSTEM\      Windows CPBACKUP IBM SCSI tape drive support
+WBACKUP1    WNBSDEV.DLL     2         \SYSTEM\      Windows CPBACKUP SCSI tape support dynalink library
+WBACKUP1    WNBSEL.RSL      2         \SYSTEM\      Windows CPBACKUP resource string file
+WBACKUP1    WNDOSLI1.DLL    2         \             Windows CPBACKUP file I/O DLL
+WBACKUP1    WNDRTRE3.DLL    2         \             Windows CPBACKUP directory tree DLL
+WBACKUP1    WNFB.DLL        2         \SYSTEM\      Windows CPBACKUP high speed backup support
+WBACKUP1    WNFBL.RSL       2         \SYSTEM\      Windows CPBACKUP resource file
+WBACKUP2    WNBACKL.RSL     2         \SYSTEM\      Windows CPBACKUP resource string file
+WBACKUP2    WNFLBMP1.DLL    2         \SYSTEM\      Windows CPBACKUP viewer for bit maps
+WBACKUP2    WNFLCDR1.DLL    2         \SYSTEM\      Windows CPBACKUP viewer for CorelDRAW
+WBACKUP2    WNFLCGM1.DLL    2         \SYSTEM\      Windows CPBACKUP viewer for computer graphics metafile
+WBACKUP2    WNFLEPS1.DLL    2         \SYSTEM\      Windows CPBACKUP viewer for encapsulated postscript
+WBACKUP2    WNFLEXE1.DLL    2         \SYSTEM\      Windows CPBACKUP viewer for executable files
+WBACKUP2    WNFLGIF1.DLL    2         \SYSTEM\      Windows CPBACKUP viewer for CompuServe GIF files
+WBACKUP2    WNFLHEX1.DLL    2         \SYSTEM\      Windows CPBACKUP viewer for hex dump
+WBACKUP2    WNFLICO1.DLL    2         \SYSTEM\      Windows CPBACKUP viewer for icons
+WBACKUP2    WNFLMSP1.DLL    2         \SYSTEM\      Windows CPBACKUP viewer for MS Paint
+WBACKUP2    WNFLPCX1.DLL    2         \SYSTEM\      Windows CPBACKUP viewer for PC Paintbrush
+WBACKUP2    WNFLPIC1.DLL    2         \SYSTEM\      Windows CPBACKUP viewer for Lotus 1-2-3 graphics
+WBACKUP2    WNFLQP1.DLL     2         \SYSTEM\      Windows CPBACKUP viewer for Quattro Pro
+WBACKUP2    WNFLRTF1.DLL    2         \SYSTEM\      Windows CPBACKUP viewer for rich text format
+WBACKUP2    WNFLTIF1.DLL    2         \SYSTEM\      Windows CPBACKUP viewer for tag image file format
+WBACKUP2    WNFLTXT1.DLL    2         \SYSTEM\      Windows CPBACKUP viewer for DisplayWrite
+WBACKUP2    WNFLWK31.DLL    2         \SYSTEM\      Windows CPBACKUP viewer for Lotus 1-2-3 V3.0
+WBACKUP2    WNFLWKS1.DLL    2         \SYSTEM\      Windows CPBACKUP viewer for Lotus 1-2-3 V1.a
+WBACKUP2    WNFLWPG1.DLL    2         \SYSTEM\      Windows CPBACKUP viewer for WordPerfect graphics
+WBACKUP2    WNFLXLS1.DLL    2         \SYSTEM\      Windows CPBACKUP viewer for Excel file
+WBACKUP2    WNFLZIP1.DLL    2         \SYSTEM\      Windows CPBACKUP viewer for PKZIP file
+WBACKUP2    WNFR.DLL        2         \SYSTEM\      Windows CPBACKUP support dll
+WBACKUP2    WNFSV1.DLL      2         \             Windows CPBACKUP viewer control
+WBACKUP2    WNHB.DLL        2         \SYSTEM\      Windows CPBACKUP low speed backup support
+WBACKUP2    WNHR.DLL        2         \SYSTEM\      Windows CPBACKUP low speed backup support
+WBACKUP2    WNIBM1.DLL      2         \             Windows CPBACKUP graphic and util DLL
+WBACKUP3    BOOK.ICO        3         \             DOS online book icon
+WBACKUP3    IBMDOS.ICO      3         \             DOS icon for Windows
+WBACKUP3    IBMDOS.PIF      3         \             DOS program information file for Windows
+WBACKUP3    IBMDOS7V.ICO    3         \             DOS icon for Windows
+WBACKUP3    IBMDOS7V.PIF    3         \             DOS program information file for Windows
+WBACKUP3    WNBACKUP.HLP    3         \SYSTEM\      Windows CPBACKUP help file
+WBACKUP3    WNIBM1L.RSL     3         \SYSTEM\      Windows CPBACKUP graphic and util resource
+WBACKUP3    WNNC.DLL        3         \SYSTEM\      Windows CPBACKUP encryption DLL
+WBACKUP3    WNQB.DLL        3         \SYSTEM\      Windows CPBACKUP QIC tape engine
+WBACKUP3    WNQR.DLL        3         \SYSTEM\      Windows CPBACKUP QIC tape support
+WBACKUP3    WNSCHEDL.EXE    3         \             Windows CPBACKUP main program
+WBACKUP3    WNSCHEDL.HLP    3         \SYSTEM\      Windows CPBACKUP help file
+WBACKUP3    WNSCHEL.RSL     3         \SYSTEM\      Windows CPBACKUP string
+WBACKUP3    WNTB.DLL        3         \SYSTEM\      Windows CPBACKUP CPS tape engine
+WBACKUP3    WNTLDTH1.DLL    3         \SYSTEM\      Windows CPBACKUP viewer dither transformation
+WBACKUP3    WNTR.DLL        3         \SYSTEM\      Windows CPBACKUP support dll
+WBACKUP3    WNUSER.INI      3         \DATA\        Windows CPBACKUP scheduler .INI file
+WBACKUP3    WNVADOS1.DLL    3         \SYSTEM\      Windows CPBACKUP support dll
+WBACKUP3    WNVC1.DLL       3         \             Windows CPBACKUP viewer control DLL
+WBACKUP3    WNVCBIN1.DLL    3         \SYSTEM\      Windows CPBACKUP viewer engine - binary category
+WBACKUP3    WNVCRAS1.DLL    3         \SYSTEM\      Windows CPBACKUP viewer engine - raster category
+WBACKUP3    WNVCTBL1.DLL    3         \SYSTEM\      Windows CPBACKUP viewer engine - table category
+WBACKUP3    WNVCTXT1.DLL    3         \SYSTEM\      Windows CPBACKUP viewer engine - text category
+WBACKUP3    WNVCVEC1.DLL    3         \             Windows CPBACKUP viewer engine - vector category
+WBACKUP3    WNVE1.DLL       3         \             Windows CPBACKUP support dll
+WBACKUP3    WNVE1L.RSL      3         \SYSTEM\      Windows CPBACKUP resource string file
+WBACKUP3    WNVF1.DLL       3         \             Windows CPBACKUP support dll
+WBACKUP3    WORDPROC.SET    3         \DATA\        CPBACKUP pre-configured setup file
+WGRP        AV.GRP          3         \             Windows DOS utilities group file
+WGRP        AVBK.GRP        3         \             Windows DOS utilities group file
+WGRP        AVBKUD.GRP      3         \             Windows DOS utilities group file
+WGRP        AVUD.GRP        3         \             Windows DOS utilities group file
+WGRP        BK.GRP          3         \             Windows DOS utilities group file
+WGRP        BKUD.GRP        3         \             Windows DOS utilities group file
+WGRP        UD.GRP          3         \             Windows DOS utilities group file
+WINAV       BOOK.ICO        6         \             DOS online book icon
+WINAV       F_LOG.EXE       6         \             Windows IBM Antivirus program file
+WINAV       IBMAVW.EXE      6         \             Windows IBM Antivirus main program
+WINAV       IBMAVW.HLP      6         \             Windows IBM Antivirus help file
+WINAV       IBMDOS.ICO      6         \             DOS icon for Windows
+WINAV       IBMDOS.PIF      6         \             DOS program information file for Windows
+WINAV       IBMDOS7V.ICO    6         \             DOS icon for Windows
+WINAV       IBMDOS7V.PIF    6         \             DOS program information file for Windows
+WINAV       PRODUCT.MSG     6         \             Windows IBM Antivirus message file
+WUNDEL      BOOK.ICO        6         \             DOS online book icon
+WUNDEL      IBMDOS.ICO      6         \             DOS icon for Windows
+WUNDEL      IBMDOS.PIF      6         \             DOS program information file for Windows
+WUNDEL      IBMDOS7V.ICO    6         \             DOS icon for Windows
+WUNDEL      IBMDOS7V.PIF    6         \             DOS program information file for Windows
+WUNDEL      WNGRAFIC.DLL    6         \             Windows Undelete graphics dynamic link library
+WUNDEL      WNUNDEL.EXE     6         \             Windows Undelete program
+WUNDEL      WNUNDEL.HLP     6         \             Windows Undelete help file
+

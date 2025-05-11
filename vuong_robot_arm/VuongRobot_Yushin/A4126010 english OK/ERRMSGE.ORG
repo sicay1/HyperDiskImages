@@ -1,0 +1,512 @@
+Command Number Error          
+0      1
+Start-up again.  (Turn OFF the  
+control power once.)            
+                                
+                                
+
+Command Parameter Error       
+1      2
+Start-up again.  (Turn OFF the  
+control power once.)            
+                                
+                                
+
+Jog Operation Error           
+2      3
+Start-up again.  (Turn OFF the  
+control power once.)            
+                                
+                                
+
+Servo Command Error           
+3      4
+Start-up again.  (Turn OFF the  
+control power once.)            
+                                
+                                
+
+Home Return Incomplete Error  
+4      5
+Start-up again.  (Turn OFF the  
+control power once.)            
+                                
+                                
+
+Error During Motion           
+5      6
+Start-up again.  (Turn OFF the  
+control power once.)            
+                                
+                                
+
+Teaching Incomplete Error     
+8   1101
+Teaching has not been performed.
+Perform teaching before Auto    
+Auto operation.                 
+                                
+
+Teaching Position Error       
+7   1102
+The position data contains a    
+mistake.  Re-check the data.    
+                                
+                                
+
+Casing Data Error             
+9   1104
+The casing data contains a      
+mistake.  Re-check the data.    
+                                
+                                
+
+Emergency Stop Error          
+10  1105
+The emergency stop button is not
+reseted. Reset and then operate.
+                                
+                                
+
+Motion Prohibition Area Err. 1
+22  1117
+The Prohibition Area 1(Max) is  
+smaller than Area 1(Min).       
+Re-check the Motion Prohibition 
+Area data.                      
+
+Motion Prohibition Area Err. 2
+23  1118
+The Prohibition Area 2(Min) is  
+smaller than Area 1(Max).       
+Re-check the Motion Prohibition 
+Area data.                      
+
+Motion Prohibition Area Err. 3
+24  1119
+The Prohibition Area 2(Max) is  
+smaller than Area 2(Min).       
+Re-check the Motion Prohibition 
+Area data.                      
+
+ID Collation Error            
+42  1311
+ID data may have been lost.     
+Reset ID data.                  
+                                
+                                
+
+Parameter Collation Error     
+43  1312
+Parameters may have been lost.  
+Reset parameters.               
+                                
+                                
+
+Servo Connection Error        
+44  1313
+Abnormality exists in input     
+signal from the servo driver.   
+Check its connection.           
+                                
+
+Cannot Reset Pos. Module Err. 
+45  1314
+                                
+                                
+                                
+                                
+
+Servo Driver Error            
+46  1315
+Abnormality exists in the servo 
+driver.  Check the servo driver.
+                                
+                                
+
+Emergency Stop                
+47  1316
+The emergency stop button was   
+pressed.  Reset the button and  
+perform normal operation.       
+                                
+
+Cannot Execute Positioning    
+48  1317
+Start-up again.  (Turn OFF the  
+control power once.)            
+                                
+                                
+
+Driver Alarm Input Detected   
+49 X0012
+Start-up again.  (Turn OFF the  
+control power once.)            
+                                
+                                
+
+CW Limit Input Detected       
+50 X0013
+Start-up again.  (Turn OFF the  
+control power once.)            
+                                
+                                
+
+CCW Limit Input Detected      
+51 X0014
+Start-up again.  (Turn OFF the  
+control power once.)            
+                                
+                                
+
+Plus Limit Error (Encoder)    
+52 X0015
+Start-up again.  (Turn OFF the  
+control power once.)            
+                                
+                                
+
+Minus Limit Error (Encoder)   
+53 X0016
+Start-up again.  (Turn OFF the  
+control power once.)            
+                                
+                                
+
+Over Speed Detected           
+54 X0017
+Start-up again.  (Turn OFF the  
+control power once.)            
+                                
+                                
+
+Over Acceleration Detected    
+55 X0018
+Start-up again.  (Turn OFF the  
+control power once.)            
+                                
+                                
+
+Variation Error               
+56 X0019
+Start-up again.  (Turn OFF the  
+control power once.)            
+                                
+                                
+
+Plus Limit Err. (Command Pos.)
+57 X0031
+Start-up again.  (Turn OFF the  
+control power once.)            
+                                
+                                
+
+Minus Limit Err (Command Pos.)
+58 X0032
+Start-up again.  (Turn OFF the  
+control power once.)            
+                                
+                                
+
+Home Position Search Error    
+59 X0041
+Start-up again.  (Turn OFF the  
+control power once.)            
+                                
+                                
+
+Encoder Absolute Error        
+60 X0051
+Start-up again.  (Turn OFF the  
+control power once.)            
+                                
+                                
+
+Position Data Overflow        
+61 X0052
+Start-up again.  (Turn OFF the  
+control power once.)            
+                                
+                                
+
+Position Data Read Error      
+62 X0053
+Start-up again.  (Turn OFF the  
+control power once.)            
+                                
+                                
+
+Positioning Completed Time Out
+63 X0061
+Start-up again.  (Turn OFF the  
+control power once.)            
+                                
+                                
+
+Servo OFF During Motor Drive  
+64 X0099
+Start-up again.  (Turn OFF the  
+control power once.)            
+                                
+                                
+
+Internal Calculation Error    
+65 X0999
+Start-up again.  (Turn OFF the  
+control power once.)            
+                                
+                                
+
+Emergency Stop                
+66 X9999
+Start-up again.  (Turn OFF the  
+control power once.)            
+                                
+                                
+
+Plus Limit Error              
+67 X2001
+Start-up again.  (Turn OFF the  
+control power once.)            
+                                
+                                
+
+Minus Limit Error             
+68 X2003
+Start-up again.  (Turn OFF the  
+control power once.)            
+                                
+                                
+
+Speed Limit Error             
+69 X2005
+Start-up again.  (Turn OFF the  
+control power once.)            
+                                
+                                
+
+Over Speed Detected Error     
+70 X2007
+Start-up again.  (Turn OFF the  
+control power once.)            
+                                
+                                
+
+Over Accel Detected Error     
+71 X2009
+Start-up again.  (Turn OFF the  
+control power once.)            
+                                
+                                
+
+Variation Error Detected Error
+72 X2011
+Start-up again.  (Turn OFF the  
+control power once.)            
+                                
+                                
+
+Motor Rotation Direction Error
+73 X2013
+Start-up again.  (Turn OFF the  
+control power once.)            
+                                
+                                
+
+Position Loop Range Error     
+74 X2016
+Start-up again.  (Turn OFF the  
+control power once.)            
+                                
+                                
+
+Speed Feed Fwd Coefficient Err
+75 X2017
+Start-up again.  (Turn OFF the  
+control power once.)            
+                                
+                                
+
+Encoder Type Selection Error  
+76 X2018
+Start-up again.  (Turn OFF the  
+control power once.)            
+                                
+                                
+
+Encoder Multiplication Error  
+77 X2019
+Start-up again.  (Turn OFF the  
+control power once.)            
+                                
+                                
+
+Speed to Voltage Ratio Error  
+78 X2020
+Start-up again.  (Turn OFF the  
+control power once.)            
+                                
+                                
+
+Setting Speed Error           
+79 X3031
+Start-up again.  (Turn OFF the  
+control power once.)            
+                                
+                                
+
+Target Position Error         
+80 X3033
+Start-up again.  (Turn OFF the  
+control power once.)            
+                                
+                                
+
+Target Position Mode Error    
+81 X3035
+Start-up again.  (Turn OFF the  
+control power once.)            
+                                
+                                
+
+Acceleration Time Error       
+82 X3036
+Start-up again.  (Turn OFF the  
+control power once.)            
+                                
+                                
+
+Acceleration Mode Select Err. 
+83 X3037
+Start-up again.  (Turn OFF the  
+control power once.)            
+                                
+                                
+
+Acceleration Parameter 1 Error
+84 X3038
+Start-up again.  (Turn OFF the  
+control power once.)            
+                                
+                                
+
+Acceleration Parameter 2 Error
+85 X3039
+Start-up again.  (Turn OFF the  
+control power once.)            
+                                
+                                
+
+Deceleration Time Error       
+86 X3040
+Start-up again.  (Turn OFF the  
+control power once.)            
+                                
+                                
+
+Deceleration Mode Select Err. 
+87 X3041
+Start-up again.  (Turn OFF the  
+control power once.)            
+                                
+                                
+
+Deceleration Parameter 2 Error
+88 X3042
+Start-up again.  (Turn OFF the  
+control power once.)            
+                                
+                                
+
+Deceleration Parameter 2 Error
+89 X3043
+Start-up again.  (Turn OFF the  
+control power once.)            
+                                
+                                
+
+Positioning Judgment Range Err
+90 X3044
+Start-up again.  (Turn OFF the  
+control power once.)            
+                                
+                                
+
+Positioning Time Out Error    
+91 X3046
+Start-up again.  (Turn OFF the  
+control power once.)            
+                                
+                                
+
+Course-Auxil. Mode Select Err.
+92 X3047
+Start-up again.  (Turn OFF the  
+control power once.)            
+                                
+                                
+
+Start-up Mode Selection Error 
+93 X3048
+Start-up again.  (Turn OFF the  
+control power once.)            
+                                
+                                
+
+Position Detected Mode Error  
+94 X3049
+Start-up again.  (Turn OFF the  
+control power once.)            
+                                
+                                
+
+Position Detected Set Value Er
+95 X3050
+Start-up again.  (Turn OFF the  
+control power once.)            
+                                
+                                
+
+Body No. Collation Error      
+97  1319
+Teaching data created for       
+another robot cannot be used    
+as is.  Correct the teaching    
+data.                           
+
+Data Version Error            
+98  1320
+Attempted to use teaching data  
+for a different version. Proceed
+from new mold registration.     
+                                
+
+Servo Power OFF Detected      
+99  1321
+Servo ON signal from servo      
+driver is cut off.              
+Check servo driver and cables.  
+                                
+
+Manual Operation error        
+116 1338
+Auto Operation needs to Change  
+The Key Switch Auto.            
+                                
+                                
+
+Auto Operation error          
+117 1339
+Manual Operation needs to Change
+The Key Switch Manual.          
+                                
+                                
+
+Emergency Stop reset error    
+118 1340
+Emergency stop button is not    
+reset. Reset the Emergency stop 
+button before pressing Servo ON 
+button.                         
+
+

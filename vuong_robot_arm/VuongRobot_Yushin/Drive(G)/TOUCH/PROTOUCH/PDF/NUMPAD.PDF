@@ -1,0 +1,38 @@
+Panl NUMpad 4 3 788 423 929 573 1 1 1 12 15 0 0 1 30 50 1 125
+Back 7
+Fore 0
+Font 2
+Size 4
+Text 1
+Cell 
+Text 2
+Cell 
+Text 3
+Cell 
+Text 4
+Cell 
+Text 5
+Cell 
+Text 6
+Cell 
+Text 7
+Cell 
+Text 8
+Cell 
+Text 9
+Cell 
+Cell 1
+Text 0
+Cell 
+Back 0
+Cell 
+Panl NUMenter 1 1 788 372 929 417 1 1 1 12 15 0 0 1 50 50 1 0
+Back 7
+Fore 4
+Font 2
+Size 4
+Text Enter ...
+Cell 
+Panl NUMback 1 1 782 364 935 581 1 2 2 10 15 255 0 1 0 0 0 0
+Back 9
+Cell 

@@ -1,0 +1,127 @@
+Panl CALEms 1 2 602 925 942 972 1 1 1 12 15 0 0 1 1 10 1 0
+Back 11
+Fore 0
+Font 2
+Size 4
+Text December
+Cell 
+Text February
+Cell 
+Panl CALEmd 5 7 602 769 942 921 1 1 1 12 15 0 0 1 3 10 1 0
+Back 3
+Fore 3
+Font 2
+Size 4
+Text 30
+Cell 
+Text 31
+Cell 
+Back 11
+Fore 0
+Text 1
+Cell 
+Text 2
+Cell 
+Text 3
+Cell 
+Text 4
+Cell 
+Text 5
+Cell 
+Text 6
+Cell 
+Text 7
+Cell 
+Text 8
+Cell 
+Text 9
+Cell 
+Text 10
+Cell 
+Text 11
+Cell 
+Text 12
+Cell 
+Text 13
+Cell 
+Text 14
+Cell 
+Text 15
+Cell 
+Text 16
+Cell 
+Text 17
+Cell 
+Text 18
+Cell 
+Text 19
+Cell 
+Text 20
+Cell 
+Text 21
+Cell 
+Text 22
+Cell 
+Text 23
+Cell 
+Text 24
+Cell 
+Text 25
+Cell 
+Text 26
+Cell 
+Text 27
+Cell 
+Text 28
+Cell 
+Text 28
+Cell 
+Text 30
+Cell 
+Text 31
+Cell 
+Back 3
+Fore 3
+Text 1
+Cell 
+Text 2
+Cell 
+Panl CALEdt 1 7 602 737 942 765 1 1 1 12 15 15 0 1 4 10 1 0
+Back 11
+Fore 0
+Font 2
+Size 4
+Text Sun
+Cell 
+Text Mon
+Cell 
+Text Tue
+Cell 
+Text Wed
+Cell 
+Text Thu
+Cell 
+Text Fri
+Cell 
+Text Sat
+Cell 
+Panl CALEt 1 1 695 662 942 729 0 1 1 0 0 255 0 1 10 10 1 0
+Back 9
+Fore 14
+Font 2
+Size 4
+Text January 1991
+Cell 
+Panl CALEi 1 1 602 658 682 729 0 1 1 12 15 0 0 1 10 10 1 0
+Back 11
+Cell 
+Panl CALEis 1 1 610 662 687 733 0 1 1 0 255 255 0 1 10 10 1 0
+Back 0
+Cell 
+Panl CALEf 1 1 588 645 956 985 1 2 2 10 15 255 0 1 0 0 0 0
+Back 9
+Font 1
+Size 2
+JusH 2
+JusV 2
+Cell 

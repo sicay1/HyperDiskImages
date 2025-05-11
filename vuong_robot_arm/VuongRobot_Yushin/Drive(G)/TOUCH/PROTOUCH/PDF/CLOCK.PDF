@@ -1,0 +1,14 @@
+Panl CLOCK 1 1 78 434 186 466 1 1 1 10 15 255 0 1 1 1 1 0
+Back 9
+Time 1 ":."
+Fore 14
+Cell 
+Panl CLOCKA 1 1 78 289 186 428 1 5 5 0 10 0 0 1 20 30 2 0
+Back 8
+Bord 9
+Time 1 2 4 14
+JusV 0
+Cell 
+Panl CLOCKback 1 1 71 281 194 473 1 2 2 10 15 255 0 1 0 0 0 0
+Back 7
+Cell 

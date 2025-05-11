@@ -1,0 +1,16 @@
+
+E ƒGƒfƒBƒ^‚Ö ‚æ‚¤‚±‚»
+
+ƒZƒbƒgƒAƒbƒv‚Ìs‚Á‚½•ÏX‚Í, AUTOEXEC.BAT ‚Æ CONFIG.SYS ‚É
+•Û‘¶‚³‚ê‚Ä‚¢‚Ü‚·B
+
+Ctrl+N ƒL[‚ð‰Ÿ‚µ, ‚»‚ê‚¼‚ê‚Ìƒtƒ@ƒCƒ‹‚ð•ÒW‚·‚é‚±‚Æ‚ª‚Å‚«‚Ü‚·B
+•ÒWŒã‚Í:
+
+   F3 ƒL[‚ð‰Ÿ‚·‚Æ, ’Ç‰ÁE•ÏX‚µ‚½“à—e‚Í•Û‘¶‚³‚ê‚Ü‚¹‚ñB
+    ‚Ü‚½‚Í,
+
+   F4 ƒL[‚ð‰Ÿ‚·‚Æ, ’Ç‰ÁE•ÏX‚µ‚½“à—e‚ð•Û‘¶‚µ‚Ü‚·B
+
+ƒGƒfƒBƒ^‚ÉŠÖ‚·‚éÚ‚µ‚¢î•ñ‚Í, F1 ƒL[‚ð‰Ÿ‚µ‚Ä‚­‚¾‚³‚¢B
+

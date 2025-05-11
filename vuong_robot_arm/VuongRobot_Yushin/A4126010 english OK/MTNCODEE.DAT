@@ -1,0 +1,19 @@
+VER="VER.1.00"										; 8Œ…
+MAX=16
+CODE0010="Greasing : Traverse axis        "
+CODE0011="Greasing : Main arm kick axis   "
+CODE0012="Greasing : Main arm axis        "
+CODE0013="Greasing : Sub arm kick axis    "
+CODE0014="Greasing : Sub arm axis         "
+CODE0020="Timing belt : Traverse axis     "
+CODE0021="Timing belt : Main arm kick axis"
+CODE0022="Timing belt : Main arm axis     "
+CODE0023="Timing belt : Sub arm kick axis "
+CODE0024="Timing belt : Sub arm axis      "
+CODE0040="Vacuum generator filter replace "
+CODE0041="Exhaust filter replace          "
+CODE0050="Battery replace                 "
+CODE0060="Monthly maintenance             "
+CODE0061="Trimonthly maintenance          "
+CODE0062="Yearly maintenance              "
+

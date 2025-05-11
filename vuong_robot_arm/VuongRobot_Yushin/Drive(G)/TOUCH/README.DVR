@@ -1,0 +1,245 @@
+             ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+             ³    Late additions to TTdos V4.05    ³
+             ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+
+SWITCH SETTINGS AND HARDWARE NOTES
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+
+CompuAdd POS Terminal
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+
+This machine is fitted with a Touch Technology AR5000 touchscreen
+controller, connected to one of four serial ports on the
+"Integrated Terminal Board".  The addresses and IRQ's of the
+serial port are soft configurable and their power on default
+state is disabled.  Consequently the touchscreen will not work
+until the ITB is appropriately configured as described in the 
+hardware specification available from CompuAdd.
+
+Touch Technology PC5000 Bus Controller
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+
+     J6,J7       Dependent on sensor type
+     J8 - J13    Interrupt select (2 - 7)
+     SW2         Off                (Standard speed)
+     SW1,3,4     Off                (Not used)
+
+Touch Technology Analogue Capacitive
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+
+This controller supersedes the TekTouch.  It can be ordered in
+its native configuration, in which case the new TAC driver must
+be chosen when installing TTdos, or in TekTouch configuration,
+in which case the TekTouch driver must be chosen, and the
+switches set as defined for the TekTouch.
+
+Touch Technology TekTouch
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+
+This controller may now be set for either continuous mode or
+delta mode.  Delta mode is preferred as the overhead on the PC
+processor is reduced and the controller's internal filtering is
+better in delta mode. 
+
+      SW1,2       Off,Off            (Continuous mode)
+or
+      SW1,2       On,On              (Delta mode)
+      
+      SW3,4       Off,On             (9600 baud, 1 stop bit)
+      SW5,6       Off,On             (No parity)
+      SW7         Off                (Ascii format)
+
+
+API CALLS
+ÄÄÄÄÄÄÄÄÄ
+
+
+All API Calls
+ÄÄÄÄÄÄÄÄÄÄÄÄÄ
+
+TTdos saves the DS register on entry to the API and restores
+it on exit.  All other registers are destroyed.
+
+
+"Read Touches" API Call
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+
+In addition to the returned registers defined in the manual, the
+following are also returned:
+
+     DI   =    Raw X coordinate
+     ES   =    Raw Y coordinate
+
+"Get Parameters" API Call
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+
+The following new touchscreen hardware types are returned in BL:
+
+     32 Touch Technology PC5000 Bus Controller
+
+New "Soft Calibrate" API Calls
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+
+Calling Sequence:   AL = $0A
+                    Call API interrupt
+                    <First touch>
+                    AL = $0B
+                    AH = 0 for calibration using extreme corners
+                         1 for calibration using points 20% in
+                    BL = 0 (reserved for future use)
+                    Call API interrupt
+                    <Second touch>
+
+Return Values:      (Both calls)
+                    AH = 0 if successful
+                         1 if BL not 0 on entry
+                         2 if current video mode unsupported
+                         3 if AH not 0 or 1 on entry
+                         4 if not hard calibrated yet
+                         5 if touches too close
+                         6 if user aborted by pressing a key
+                         7 if no touch after 30 seconds
+
+Description:        
+These two calls simplify the implementation of soft calibration
+routines in applications.  For the supported video modes, the
+Read Soft Calibration Coordinates and Update Soft Calibration
+Coordinates API calls are no longer required as these new,
+simpler calls should be used instead.
+
+The first call waits for a touch either at the bottom left corner
+of the screen or 20% away from it, returning when the touch is
+removed.  The second call waits for a touch either at the top
+right of the screen or 20% away.  If the touches are acceptable,
+the driver updates the TBcalib file and activates the new
+calibration.
+
+Before the first call, the application should direct the user to
+touch a point displayed at the bottom left of the screen, or 20%
+away from it.  On return from the first call, the application
+should clear the point drawn at the bottom left and draw a new
+one at the top right.  On return from the second call,
+calibration is complete.  It is usually more accurate to use
+calibration points 20% away from the edges of the extreme
+corners, the location of the points being:
+
+First point (20% from bottom left): Xmax * 20/100, Ymax * 80/100
+Second point (20% from top right):  Xmax * 80/100, Ymax * 20/100
+
+
+TTdos PARAMETERS
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+
+TTdos has several new command line parameters:
+
+     /E:hhhhhh..    Extra initialisation.  Specifies additional
+                    hex characters to be sent to the touchscreen
+                    after normal initialisation, for serial
+                    touchscreens only.  
+                    E.g. to send <Escape A>, type "/E:1B41"
+     /V             Use clock vector 1C instead of 8
+
+Type "TTdos /?" for a full list of parameter syntax and
+allowable values.
+
+CALIBRATION
+ÄÄÄÄÄÄÄÄÄÄÄ
+
+If you are upgrading to this release of TTdos from a version
+prior to 4.00, your TBcalib file will be deleted and you will
+have to re-calibrate.  The format of the TBcalib file was changed
+again at version 4.00.
+
+Any new soft calibrations made using TBcal now take effect
+immediately, not the next time TTdos is loaded and unloaded,
+as stated in the manual.
+
+All standard video modes are supported, as are Super VGA modes
+up to 1024 x 768 on Paradise, Tseng, Video-7, and Trident based
+video cards.
+
+The video mode mappings used by TTdos can now be altered to
+handle high resolution graphics cards other than the Paradise,
+Tseng, Video-7 and Trident chip-sets normally supported, or to
+handle unusual resolutions.  The video mode table controls
+translation of BIOS video modes to Touch-Base calibration modes. 
+It can be edited by selecting option 'C' from the TBcal menu.
+
+On the Customise Video Mode Mappings screen, the top table
+controls TTdos's mapping of BIOS video modes to calibrations
+for every BIOS video mode from 0 through 7F.  Modes 0 to 13h are
+IBM defined standards, but for higher resolutions each video card
+manufacturer uses different BIOS mode numbers.  The default
+settings handle cards with Paradise, Tseng, Video-7, and Trident
+chip-sets up to 1024 x 768, but if you are using high resolution
+graphics modes on video cards other than these, you may need to
+alter the mapping of BIOS video modes to calibration modes.
+
+The lower table controls the video modes used by TBcal to perform
+and test calibration for each resolution.  Again, the IBM
+standards are used for resolutions up to 640 x 480.  The zero
+values for the Super VGA modes invoke TBcal''s auto-detection of
+the Paradise, Tseng, Video-7 and Trident chipsets, for which
+suitable video modes are defaulted at run-time.  The zero value
+for hard calibration causes TBcal not to change video modes when
+hard calibrating.
+
+The user defined calibration modes may be used to handle any two
+other resolutions you may be using.  In this case, you must
+define the video mode to be used for calibration/testing, and the
+BIOS video modes which TTdos should map to the user defined
+calibrations.
+
+Changes to the mode mappings (top table) only take effect after
+TTdos is unloaded and reloaded.  Changes to the calibration
+modes (lower table) are immediately recognised by TBcal.
+
+The Arrow keys, Tab, and Enter move the cursor around the table.
+Home moves to the first field.  End moves to the last field.  F10
+updates the table in the TBcalib file, and exits back to the main
+menu.  F2 restores the default values.  Escape exits back to the
+main menu without updating TBcalib.
+
+Example:  Adding support for Video7 720 x 540 x 16 mode 61 hex.
+
+     Set the mode mapping table (top table) to map BIOS video
+     mode 61 to calibration mode 3 - User defined mode (1).  Set
+     the calibration mode table (lower table) to make TBcal use
+     BIOS mode 61 for calibration mode 3.
+
+
+TBMOUSE
+ÄÄÄÄÄÄÄ
+
+TBmouse has a new button mode.  In mode 6, button presses are
+generated when you lift your finger off the screen.
+
+TBmouse also has two new parameters:
+
+     /O        Causes touches to be ignored when they are
+               outside the x,y limits specified by mouse calls
+               7 and 8.
+
+     /K:size   Specifies the size of the stack switched to
+               before calling a mouse User ISR.  The default is
+               now 500 bytes.
+
+
+
+TBPAINT
+ÄÄÄÄÄÄÄ
+
+TBpaint is a touch painting package.  See TBpaint.doc in the
+TBpaint directory for further information.
+
+PROFESSIONAL TOUCH
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+
+Professional Touch is a graphical application generator,
+previously sold as a separate product.  See the file protouch.doc
+in the protouch directory for full information.
+
+
+Touch-Base Ltd.
+October 1993
+

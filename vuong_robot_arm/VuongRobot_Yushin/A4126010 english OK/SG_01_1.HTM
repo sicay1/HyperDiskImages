@@ -1,0 +1,31 @@
+<HTML>
+<HEAD>
+  <META NAME="GENERATOR" CONTENT="Adobe PageMill 2.0J Win">
+  <META HTTP-EQUIV="Content-Type" CONTENT="text/html;CHARSET=x-sjis">
+  <TITLE>sg_01_1</TITLE>
+</HEAD>
+<BODY BGCOLOR="#6666cc">
+
+<TABLE WIDTH="632" HEIGHT="32" BORDER="1" CELLSPACING="1" CELLPADDING="2">
+<TR>
+<TD WIDTH="454" BGCOLOR="#000000"><P><CENTER><FONT COLOR="#ffffff">Input signals from IMM</FONT></CENTER></TD>
+<TD WIDTH="80" BGCOLOR="#9999ff" ALIGN="CENTER"><FONT COLOR="#999999">Bkwd</FONT></TD>
+<TD WIDTH="80" BGCOLOR="#9999ff" ALIGN="CENTER"><A HREF="sg_01_2.htm" TARGET="_self"><FONT COLOR="#000000">Frwd</FONT></A></TD></TR>
+</TABLE>
+ <TABLE WIDTH="632" HEIGHT="286" BORDER="0" CELLSPACING="2" CELLPADDING="4">
+<TR>
+<TD WIDTH="120" BGCOLOR="#000080" HEIGHT="22"><FONT COLOR="#ffffff">Signal name</FONT></TD>
+<TD WIDTH="490" BGCOLOR="#000080"><FONT COLOR="#ffffff">Description</FONT></TD></TR>
+<TR>
+<TD WIDTH="120" HEIGHT="40" BGCOLOR="#000000" VALIGN="TOP"><FONT COLOR="#ffffff">Mold open limit</FONT></TD>
+<TD WIDTH="490" BGCOLOR="#000000" VALIGN="TOP"><FONT COLOR="#ffffff" SIZE=-1>This signal is ON when the injection molding machine has fully opened the mold. When this signal is ON, the take-out arm can enter the mold area.</FONT></TD></TR>
+<TR>
+<TD WIDTH="120" HEIGHT="40" BGCOLOR="#000000" VALIGN="TOP"><FONT COLOR="#ffffff">Safety gate <BR>closed</FONT></TD>
+<TD WIDTH="490" BGCOLOR="#000000" VALIGN="TOP"><FONT COLOR="#ffffff" SIZE=-1>This signal is ON when the injection molding machine safety gate is closed. Take-out motion will not start unless this signal is ON.</FONT></TD></TR>
+<TR>
+<TD WIDTH="120" HEIGHT="104"BGCOLOR="#000000" VALIGN="TOP"><FONT COLOR="#ffffff">Injection <BR>Signal</FONT></TD>
+<TD WIDTH="490" BGCOLOR="#000000" VALIGN="TOP"><FONT COLOR="#ffffff" SIZE=-1>This signal turns ON when the injection molding machine injects. This signal is used as one of the conditions for starting take-out motion. The take-out robot senses when this signal is turns ON and stores the fact in its memory. If the safety gate is opened or the injection molding machine is stopped during full-auto operation, this memory is cleared. Take-out motion will not start unless the memory of the injection signal turing ON exists. This use of the injection signal assures that take-out motion during Auto operation starts only when injection molding has been performed.</FONT></TD></TR>
+</TR>
+</TABLE>
+</BODY>
+</HTML>

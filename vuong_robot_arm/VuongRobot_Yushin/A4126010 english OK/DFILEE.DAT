@@ -1,0 +1,1281 @@
+ERR=00001
+COLOR=0
+"Input setting error           "
+"All axes were not selected when         "
+"inputting home return order.  Select all"
+"axes except air-flip axis.              "
+"                                        "
+"                                        "
+ERR=00002
+COLOR=0
+"Detection set. data read error"
+"                                        "
+"                                        "
+"                                        "
+"                                        "
+"                                        "
+ERR=00003
+COLOR=0
+"Valve set. data read error    "
+"                                        "
+"                                        "
+"                                        "
+"                                        "
+"                                        "
+ERR=00004
+COLOR=0
+"Mode setting data read error  "
+"                                        "
+"                                        "
+"                                        "
+"                                        "
+"                                        "
+ERR=00005
+COLOR=0
+"Input signal data read error  "
+"                                        "
+"                                        "
+"                                        "
+"                                        "
+"                                        "
+ERR=00006
+COLOR=0
+"Output signal data read err.  "
+"                                        "
+"                                        "
+"                                        "
+"                                        "
+"                                        "
+ERR=00007
+COLOR=0
+"Position disp. data read err  "
+"                                        "
+"                                        "
+"                                        "
+"                                        "
+"                                        "
+ERR=00008
+COLOR=0
+"Speed disp. data read error   "
+"                                        "
+"                                        "
+"                                        "
+"                                        "
+"                                        "
+ERR=00009
+COLOR=0
+"Time display data read error  "
+"                                        "
+"                                        "
+"                                        "
+"                                        "
+"                                        "
+ERR=00010
+COLOR=0
+"Counter data read error       "
+"                                        "
+"                                        "
+"                                        "
+"                                        "
+"                                        "
+ERR=00011
+COLOR=0
+"Motion display data read err  "
+"                                        "
+"                                        "
+"                                        "
+"                                        "
+"                                        "
+ERR=00012
+COLOR=0
+"Other sig disp data read err  "
+"                                        "
+"                                        "
+"                                        "
+"                                        "
+"                                        "
+ERR=00013
+COLOR=0
+"Sequencer commun. error       "
+"Cannot communicate with FAM3.           "
+"Check communication circuit and         "
+"sequencer power supply; then restart.   "
+"                                        "
+"                                        "
+ERR=00014
+COLOR=0
+"Sequencer commun. error       "
+"Cannot communicate with FAM3.           "
+"Check communication circuit and         "
+"sequencer power supply; then restart.   "
+"                                        "
+"                                        "
+ERR=00015
+COLOR=0
+"Sequencer error               "
+"Error No.  [    ]                       "
+"Alarm [                                ]"
+"      [                                ]"
+"                                        "
+"                                        "
+ERR=00016
+COLOR=0
+"ID data receive error         "
+"                                        "
+"                                        "
+"                                        "
+"                                        "
+"                                        "
+ERR=00017
+COLOR=0
+"Function data receive error   "
+"                                        "
+"                                        "
+"                                        "
+"                                        "
+"                                        "
+ERR=00018
+COLOR=0
+"Command wrt enable flag err   "
+"Sequencer command receive enable flag   "
+"does not turn ON.                       "
+"                                        "
+"                                        "
+"                                        "
+ERR=00019
+COLOR=0
+"Teaching header rec. error    "
+"Communication trouble occurred while    "
+"receiving the header part of the        "
+"teaching data from the sequencer.       "
+"                                        "
+"                                        "
+ERR=00020
+COLOR=0
+"Teaching data abnormal error  "
+"Either the teaching data file is damaged"
+"or the header data cannot be received by"
+"the sequencer.                          "
+"                                        "
+"                                        "
+ERR=00021
+COLOR=0
+"Teaching data send error      "
+"Communication trouble occurred while    "
+"sending teaching data to the sequencer. "
+"                                        "
+"                                        "
+"                                        "
+ERR=00022
+COLOR=0
+"Teaching data initialize err  "
+"Sending of teaching data initialization "
+"communication failed.                   "
+"                                        "
+"                                        "
+"                                        "
+ERR=00023
+COLOR=0
+"Robot status receive error    "
+"                                        "
+"                                        "
+"                                        "
+"                                        "
+"                                        "
+ERR=00024
+COLOR=0
+"Communication initial. error  "
+"Cannot initialize communication port.   "
+"Possible hardware problem in computer.  "
+"                                        "
+"                                        "
+"                                        "
+ERR=00025
+COLOR=0
+"Mold data delete error        "
+"Cannot delete data of current mold No.  "
+"Delete after rereading other mold data. "
+"                                        "
+"                                        "
+"                                        "
+ERR=00026
+COLOR=0
+"Program deletion error        "
+"The motion program which is currently   "
+"in use cannot be deleted.               "
+"After changing the motion program,      "
+"then retry.                             "
+"                                        "
+ERR=00027
+COLOR=0
+"Prod monitor inform rec err   "
+"Cannot receive production monitor data  "
+"from FAM3.                              "
+"                                        "
+"                                        "
+"                                        "
+ERR=00028
+COLOR=0
+"File access error             "
+"Cannot read product name from mold data."
+"                                        "
+"                                        "
+"                                        "
+"                                        "
+ERR=00029
+COLOR=0
+"External equipment initial err"
+"Cannot initialized the DIO board.       "
+"                                        "
+"                                        "
+"                                        "
+"                                        "
+ERR=00030
+COLOR=0
+"Input signal data read error  "
+"Cannot read the option file of external "
+"equipment, or this file is not match the"
+"Program.                                "
+"                                        "
+"                                        "
+ERR=00031
+COLOR=0
+"IMM communica.opera.enable err"
+"Trouble occurred in IMM communication.  "
+"Either reset mold data by IMM           "
+"communication or load mold data by robot"
+"                                        "
+"                                        "
+ERR=00032
+COLOR=0
+"Motion program check error    "
+"The displayed motion program and the    "
+"current motion program do not match.    "
+"Down-load the motion program.           "
+"                                        "
+"                                        "
+ERR=00033
+COLOR=0
+"Mold data check error         "
+"Selected mold data was set by the other "
+"motion program or the other robot.      "
+"Do not use it.                          "
+"If using it, check the data contents and"
+"change it.                              "
+ERR=00034
+COLOR=0
+"Program area check error      "
+"Sequencer data area check is wrong.     "
+"Data will be sent.                      "
+"                                        "
+"                                        "
+"                                        "
+ERR=00035
+COLOR=0
+"Mold data name incorrect error"
+"The mold data cannot be stored by the   "
+"inputted mold data name.                "
+"Change the mold data name.              "
+"                                        "
+"                                        "
+ERR=00036
+COLOR=0
+"Maintenance file error        "
+"Cannot search the maintenance data load "
+"file.                                   "
+"Cannot continue maintenance processing. "
+"                                        "
+"                                        "
+ERR=00037
+COLOR=0
+"Mold data error               "
+"The serial number is wrong.             "
+"Cannot use this mold data.              "
+"Reset the production count.             "
+"                                        "
+"                                        "
+ERR=00038
+COLOR=0
+"Floppy disk error             "
+"The floppy disk is not formatted.       "
+"Change it for formatted floppy disk.    "
+"                                        "
+"                                        "
+"                                        "
+ERR=00039
+COLOR=0
+"Floppy disk error             "
+"The floppy disk is in writing           "
+"protection.  Release the protection.    "
+"                                        "
+"                                        "
+"                                        "
+ERR=00040
+COLOR=0
+"Date/Time setting error       "
+"Date or time setting is wrong.          "
+"After check, reset it.                  "
+"                                        "
+"                                        "
+"                                        "
+ERR=00041
+COLOR=0
+"Mold data name change error   "
+"Same mold name exists.                  "
+"Cannot change the mold data name.       "
+"                                        "
+"                                        "
+"                                        "
+ERR=00042
+COLOR=1
+"Production schedule complete  "
+"Molded scheduled number of products.    "
+"To perform Auto operation again, change "
+"the production register.                "
+"                                        "
+"                                        "
+ERR=00043
+COLOR=1
+"Data backup interrupted err.  "
+"Could not create back up data.          "
+"Insert floppy disk and retry.           "
+"                                        "
+"                                        "
+"                                        "
+ERR=00044
+COLOR=1
+"Data copy interrupted error   "
+"Could not copy data.                    "
+"Insert floppy disk and retry.           "
+"                                        "
+"                                        "
+"                                        "
+ERR=00045
+COLOR=1
+"Print  Data Output Complete.  "
+"Print data was output to floppy disk or "
+"printer.                                "
+"                                        "
+"                                        "
+"                                        "
+ERR=00046
+COLOR=1
+"Home Return Incompletion      "
+"The home position return motion is not  "
+"completed.  Perfom the home position    "
+"return motion.                          "
+"                                        "
+"                                        "
+ERR=00047
+COLOR=1
+"Pre-home Return Manual Opera  "
+"Home position return isn't completed.   "
+"Because motion limits are lost, robot   "
+"operation needs greatest care.          "
+"                                        "
+"                                        "
+ERR=00048
+COLOR=1
+"Mold Data Backup Completion   "
+"Mold data backup is complete.           "
+"                                        "
+"                                        "
+"                                        "
+"                                        "
+ERR=00049
+COLOR=1
+"Mold Data Copy Completion     "
+"Mold data copy is complete.             "
+"                                        "
+"                                        "
+"                                        "
+"                                        "
+ERR=00050
+COLOR=1
+"Mold Data Load Completion     "
+"Mold data load is complete.             "
+"                                        "
+"                                        "
+"                                        "
+"                                        "
+ERR=00051
+COLOR=1
+"EOAT Change Motion Completion "
+"Movd to the EOAT change position.       "
+"Touch Check button to return Main menu. "
+"                                        "
+"                                        "
+"                                        "
+ERR=00052
+COLOR=1
+"Mold Data Backup              "
+"Made the backup copy of the mold data.  "
+"                                        "
+"                                        "
+"                                        "
+"                                        "
+ERR=00053
+COLOR=1
+"Mold data error               "
+"Mold data does not exist.               "
+"                                        "
+"                                        "
+"                                        "
+"                                        "
+ERR=00054
+COLOR=1
+"Password setting error        "
+"The inputed password is wrong.          "
+"Reset the password from the beginning.  "
+"                                        "
+"                                        "
+"                                        "
+ERR=00055
+COLOR=1
+"Maintenance Work              "
+"The take-out robot requests maintenance."
+"After checking details by Detail button,"
+"perform maintenance work.               "
+"                                        "
+"                                        "
+ERR=00056
+COLOR=1
+"MSC Communication error       "
+"Cannot check BUSY.                      "
+"Operation is impossible.                "
+"                                        "
+"                                        "
+"                                        "
+ERR=00057
+COLOR=1
+"MSC Communication error       "
+"ON line connection cannot be checked.   "
+"Connection is switched to OFF line.     "
+"                                        "
+"                                        "
+"                                        "
+ERR=00058
+COLOR=0
+"Project entry error           "
+"This project data has already been used "
+"Please try again.                       "
+"                                        "
+"                                        "
+"                                        "
+ERR=00059
+COLOR=0
+"Project name entry error      "
+"This set of project name is invalid.    "
+"Please try again.                       "
+"                                        "
+"                                        "
+"                                        "
+ERR=00060
+COLOR=0
+"Directory set error           "
+"Not set up the indicated directory in   "
+"project.                                "
+"                                        "
+"                                        "
+"                                        "
+ERR=00061
+COLOR=0
+"Data deletion failure error   "
+"This designated project is used now     "
+"not delete this project.                "
+"                                        "
+"                                        "
+"                                        "
+ERR=00062
+COLOR=0
+"Set up disk error             "
+"Not set up data in installed disk.      "
+"                                        "
+"                                        "
+"                                        "
+"                                        "
+ERR=00063
+COLOR=0
+"Replaced name error           "
+"Not set up project of indicated name.   "
+"                                        "
+"                                        "
+"                                        "
+"                                        "
+ERR=00064
+COLOR=0
+"No name error                 "
+"No entered name or invalidated name.    "
+"Please try again.                       "
+"                                        "
+"                                        "
+"                                        "
+ERR=00065
+COLOR=0
+"Dup. name error               "
+"This unit name has already been used.   "
+"Please try again.                       "
+"                                        "
+"                                        "
+"                                        "
+ERR=00066
+COLOR=0
+"Reading error of ref. file    "
+"Not reading referance file.             "
+"Please confirm that the file was        "
+"installed correctly.                    "
+"                                        "
+"                                        "
+ERR=00067
+COLOR=0
+"Set up disk error             "
+"Not set up data in installed disk.      "
+"                                        "
+"                                        "
+"                                        "
+"                                        "
+ERR=00068
+COLOR=1
+"Disk set completion           "
+"Complete to set up installed disk.      "
+"                                        "
+"                                        "
+"                                        "
+"                                        "
+ERR=00069
+COLOR=1
+"Format completed              "
+"Complete format for floppy disk.        "
+"                                        "
+"                                        "
+"                                        "
+"                                        "
+ERR=00070
+COLOR=0
+"Seq. data setting error       "
+"Not set up seq. data in indicated proj. "
+"                                        "
+"                                        "
+"                                        "
+"                                        "
+ERR=00071
+COLOR=0
+"Display data setting error    "
+"Not set up display data in indicated    "
+"project.                                "
+"                                        "
+"                                        "
+"                                        "
+ERR=00072
+COLOR=0
+"Error data setting error      "
+"Not set up error data in indicated proj."
+"                                        "
+"                                        "
+"                                        "
+"                                        "
+ERR=00073
+COLOR=1
+"Installation disk error       "
+"Not enough storing area for the         "
+"installation data.                      "
+"Replace with another floppy disk.       "
+"                                        "
+"                                        "
+ERR=00074
+COLOR=1
+"Data has not saved            "
+"Data has not been saved yet.            "
+"after save the data, select yhe convert "
+"menu.                                   "
+"                                        "
+"                                        "
+ERR=00075
+COLOR=0
+"Project file copy error       "
+"Cannot copy the same name file as using "
+"now.                                    "
+"                                        "
+"                                        "
+"                                        "
+ERR=00076
+COLOR=0
+"Diskette size error           "
+"This diskette does not have enough      "
+"capacity. Change the diskette.          "
+"                                        "
+"                                        "
+"                                        "
+ERR=00077
+COLOR=0
+"Unit file read error          "
+"Cannot read following unit file.        "
+"                                        "
+"[          ]                            "
+"                                        "
+"                                        "
+ERR=00078
+COLOR=0
+"Convert data error            "
+"There is not convert data. or that is   "
+"old one.                                "
+"                                        "
+"                                        "
+"                                        "
+ERR=00079
+COLOR=0
+"Unit data error               "
+"There are not all unit files.           "
+"Make a new unit file, or confirm the    "
+"composition of unit.                    "
+"                                        "
+"                                        "
+ERR=00080
+COLOR=0
+"Displaydata file error        "
+"The following file is not found.        "
+"Install the system again.               "
+"[              ]                        "
+"                                        "
+"                                        "
+ERR=00081
+COLOR=1
+"Data convert complete         "
+"Data conversion of the robot program is "
+"completed. the data transfer or the disk"
+"prepraration activity is possible.      "
+"                                        "
+"                                        "
+ERR=00082
+COLOR=0
+"Kanji conversion system error "
+"Kanji conversion system is not          "
+"registered.                             "
+"Check the setting and re-start the      "
+"program.                                "
+"                                        "
+ERR=00083
+COLOR=1
+"Installation disk error       "
+"This disk does not have a system data.  "
+"In order to perfprm the installation    "
+"from this disk, use the install function"
+"on the E-touch menu.                    "
+"                                        "
+ERR=00084
+COLOR=0
+"Display data error            "
+"No display data. Perform data transfer  "
+"after data conversion in the flexible   "
+"teaching system.                        "
+"                                        "
+"                                        "
+ERR=00085
+COLOR=0
+"Display data error            "
+"Cannot start the Etouch.                "
+"Perform data transfer or try to re-start"
+"after turning off the power.            "
+"                                        "
+"                                        "
+ERR=00086
+COLOR=0
+"Project install error         "
+"The selected project cannot be installed"
+"from the floppy disk.                   "
+"Change the floppy disk.                 "
+"                                        "
+"                                        "
+ERR=00087
+COLOR=1
+"Diskette size error           "
+"This diskette does not have enough      "
+"capacity. Change the diskette.          "
+"                                        "
+"                                        "
+"                                        "
+ERR=00088
+COLOR=0
+"                              "
+"                                        "
+"                                        "
+"                                        "
+"                                        "
+"                                        "
+ERR=00089
+COLOR=0
+"                              "
+"                                        "
+"                                        "
+"                                        "
+"                                        "
+"                                        "
+ERR=00090
+COLOR=0
+"                              "
+"                                        "
+"                                        "
+"                                        "
+"                                        "
+"                                        "
+ERR=00091
+COLOR=0
+"                              "
+"                                        "
+"                                        "
+"                                        "
+"                                        "
+"                                        "
+ERR=00092
+COLOR=0
+"                              "
+"                                        "
+"                                        "
+"                                        "
+"                                        "
+"                                        "
+ERR=00093
+COLOR=0
+"                              "
+"                                        "
+"                                        "
+"                                        "
+"                                        "
+"                                        "
+ERR=00094
+COLOR=0
+"                              "
+"                                        "
+"                                        "
+"                                        "
+"                                        "
+"                                        "
+ERR=00095
+COLOR=0
+"                              "
+"                                        "
+"                                        "
+"                                        "
+"                                        "
+"                                        "
+ERR=00096
+COLOR=0
+"                              "
+"                                        "
+"                                        "
+"                                        "
+"                                        "
+"                                        "
+ERR=00097
+COLOR=0
+"                              "
+"                                        "
+"                                        "
+"                                        "
+"                                        "
+"                                        "
+ERR=00098
+COLOR=0
+"                              "
+"                                        "
+"                                        "
+"                                        "
+"                                        "
+"                                        "
+ERR=00099
+COLOR=0
+"                              "
+"                                        "
+"                                        "
+"                                        "
+"                                        "
+"                                        "
+ERR=00100
+COLOR=0
+"                              "
+"                                        "
+"                                        "
+"                                        "
+"                                        "
+"                                        "
+ERR=00101
+COLOR=0
+"Window of the position setting"
+"Program Error                           "
+"Cannot save work area of window.        "
+"                                        "
+"                                        "
+"                                        "
+ERR=00102
+COLOR=0
+"Window of the position setting"
+"Program Error                           "
+"Cannot restore work area of window.     "
+"                                        "
+"                                        "
+"                                        "
+ERR=00103
+COLOR=0
+"Window of the position setting"
+"Program Error                           "
+"Cannot save funtion button setting.     "
+"                                        "
+"                                        "
+"                                        "
+ERR=00104
+COLOR=0
+"Window of the position setting"
+"Program Error                           "
+"Cannot restore funtion button setting.  "
+"                                        "
+"                                        "
+"                                        "
+ERR=00105
+COLOR=0
+"Window of the speed setting   "
+"Program Error                           "
+"Cannot save work area of window.        "
+"                                        "
+"                                        "
+"                                        "
+ERR=00106
+COLOR=0
+"Window of the speed setting   "
+"Program Error                           "
+"Cannot restore work area of window.     "
+"                                        "
+"                                        "
+"                                        "
+ERR=00107
+COLOR=0
+"Window of the speed setting   "
+"Program Error                           "
+"Cannot save funtion button setting.     "
+"                                        "
+"                                        "
+"                                        "
+ERR=00108
+COLOR=0
+"Window of the speed setting   "
+"Program Error                           "
+"Cannot restore funtion button setting.  "
+"                                        "
+"                                        "
+"                                        "
+ERR=00109
+COLOR=0
+"Window of the timer setting   "
+"Program Error                           "
+"Cannot save work area of window.        "
+"                                        "
+"                                        "
+"                                        "
+ERR=00110
+COLOR=0
+"Window of the timer setting   "
+"Program Error                           "
+"Cannot restore work area of window.     "
+"                                        "
+"                                        "
+"                                        "
+ERR=00111
+COLOR=0
+"Window of the timer setting   "
+"Program Error                           "
+"Cannot save funtion button setting.     "
+"                                        "
+"                                        "
+"                                        "
+ERR=00112
+COLOR=0
+"Window of the timer setting   "
+"Program Error                           "
+"Cannot restore funtion button setting.  "
+"                                        "
+"                                        "
+"                                        "
+ERR=00113
+COLOR=0
+"Window of the Counter setting "
+"Program Error                           "
+"Cannot save work area of window.        "
+"                                        "
+"                                        "
+"                                        "
+ERR=00114
+COLOR=0
+"Window of the Counter setting "
+"Program Error                           "
+"Cannot restore work area of window.     "
+"                                        "
+"                                        "
+"                                        "
+ERR=00115
+COLOR=0
+"Window of the Counter setting "
+"Program Error                           "
+"Cannot save funtion button setting.     "
+"                                        "
+"                                        "
+"                                        "
+ERR=00116
+COLOR=0
+"Window of the Counter setting "
+"Program Error                           "
+"Cannot restore funtion button setting.  "
+"                                        "
+"                                        "
+"                                        "
+ERR=00117
+COLOR=0
+"Window of the ref. data select"
+"Program Error                           "
+"Not called selection parameter          "
+"( 'sel' is not '1' ).                   "
+"                                        "
+"                                        "
+ERR=00118
+COLOR=0
+"Window of the ref. data select"
+"Program Error                           "
+"Cannot save work area of window.        "
+"                                        "
+"                                        "
+"                                        "
+ERR=00119
+COLOR=0
+"Window of the ref. data select"
+"Not found reference data.               "
+"                                        "
+"                                        "
+"                                        "
+"                                        "
+ERR=00120
+COLOR=0
+"Window of the ref. data select"
+"Program Error                           "
+"Cannot restore work area of window.     "
+"                                        "
+"                                        "
+"                                        "
+ERR=00121
+COLOR=0
+"Window of the ref. data select"
+"Program Error                           "
+"Cannot save funtion button setting.     "
+"                                        "
+"                                        "
+"                                        "
+ERR=00122
+COLOR=0
+"Window of the ref. data select"
+"Program Error                           "
+"Cannot restore funtion button setting.  "
+"                                        "
+"                                        "
+"                                        "
+ERR=00123
+COLOR=0
+"Window of the mode setting    "
+"Program Error                           "
+"Cannot save work area of window.        "
+"                                        "
+"                                        "
+"                                        "
+ERR=00124
+COLOR=0
+"Window of the mode setting    "
+"Program Error                           "
+"Cannot restore work area of window.     "
+"                                        "
+"                                        "
+"                                        "
+ERR=00125
+COLOR=0
+"Window of the mode setting    "
+"Program Error                           "
+"Cannot save funtion button setting.     "
+"                                        "
+"                                        "
+"                                        "
+ERR=00126
+COLOR=0
+"Window of the mode setting    "
+"Program Error                           "
+"Cannot restore funtion button setting.  "
+"                                        "
+"                                        "
+"                                        "
+ERR=00127
+COLOR=0
+"Window of the valve setting   "
+"Program Error                           "
+"Cannot save work area of window.        "
+"                                        "
+"                                        "
+"                                        "
+ERR=00128
+COLOR=0
+"Window of the valve setting   "
+"Program Error                           "
+"Cannot restore work area of window.     "
+"                                        "
+"                                        "
+"                                        "
+ERR=00129
+COLOR=0
+"Window of the valve setting   "
+"Program Error                           "
+"Cannot save funtion button setting.     "
+"                                        "
+"                                        "
+"                                        "
+ERR=00130
+COLOR=0
+"Window of the valve setting   "
+"Program Error                           "
+"Cannot restore funtion button setting.  "
+"                                        "
+"                                        "
+"                                        "
+ERR=00131
+COLOR=0
+"Icon selection window         "
+"Not icon file found.                    "
+"                                        "
+"                                        "
+"                                        "
+"                                        "
+ERR=00132
+COLOR=0
+"Icon selection window         "
+"Cound not alloc work area.              "
+"                                        "
+"                                        "
+"                                        "
+"                                        "
+ERR=00133
+COLOR=0
+"Icon selection window         "
+"Cound not save screen image for EMS.    "
+"                                        "
+"                                        "
+"                                        "
+"                                        "
+ERR=00134
+COLOR=0
+"Icon selection window         "
+"Program Error                           "
+"Cannot save work area of window.        "
+"                                        "
+"                                        "
+"                                        "
+ERR=00135
+COLOR=0
+"Icon selection window         "
+"Program Error                           "
+"Cannot restore work area of window.     "
+"                                        "
+"                                        "
+"                                        "
+ERR=00136
+COLOR=0
+"Icon selection window         "
+"Program Error                           "
+"Cannot save funtion button setting.     "
+"                                        "
+"                                        "
+"                                        "
+ERR=00137
+COLOR=0
+"Icon selection window         "
+"Program Error                           "
+"Cannot restore funtion button setting.  "
+"                                        "
+"                                        "
+"                                        "
+ERR=00138
+COLOR=0
+"                              "
+"                                        "
+"                                        "
+"                                        "
+"                                        "
+"                                        "
+ERR=00139
+COLOR=0
+"                              "
+"                                        "
+"                                        "
+"                                        "
+"                                        "
+"                                        "
+ERR=00140
+COLOR=0
+"                              "
+"                                        "
+"                                        "
+"                                        "
+"                                        "
+"                                        "
+ERR=00141
+COLOR=0
+"Duplication Error             "
+"The registered number is already used.  "
+"Please try again.                       "
+"                                        "
+"                                        "
+"                                        "
+ERR=00142
+COLOR=0
+"Input Error                   "
+"Registerable number is up to 200.       "
+"Please try again.                       "
+"                                        "
+"                                        "
+"                                        "
+ERR=00143
+COLOR=0
+"Input Error                   "
+"The title is required                   "
+"Please try again.                       "
+"                                        "
+"                                        "
+"                                        "
+ERR=00144
+COLOR=0
+"No Space Error                "
+"No more space is available.             "
+"After deleting unnecessary sub routine, "
+"Please try again.                       "
+"                                        "
+"                                        "
+ERR=00145
+COLOR=0
+"Input Error                   "
+"Label name has not been input.          "
+"Please try again.                       "
+"                                        "
+"                                        "
+"                                        "
+ERR=00146
+COLOR=0
+"Title Entry Error             "
+"No error title.                         "
+"                                        "
+"                                        "
+"                                        "
+"                                        "
+ERR=00147
+COLOR=0
+"Position Setting Error        "
+"Not set position.                       "
+"Set position again.                     "
+"                                        "
+"                                        "
+"                                        "
+ERR=00148
+COLOR=0
+"Speed Setting Error           "
+"Not set speed.                          "
+"Set speed again.                        "
+"                                        "
+"                                        "
+"                                        "
+ERR=00149
+COLOR=0
+"Duplication Error             "
+"There is a signal set to duplicate.     "
+"Please try again not to duplicate.      "
+"                                        "
+"                                        "
+"                                        "
+ERR=00150
+COLOR=0
+"Set Error                     "
+"There is a signal whose control set of  "
+"ON/OFF is undone. Please try Ctrl set.  "
+"                                        "
+"                                        "
+"                                        "
+ERR=00151
+COLOR=0
+"Axis Setting Error            "
+"Not set operation Axis.                 "
+"Set operation axis.                     "
+"                                        "
+"                                        "
+"                                        "
+ERR=00152
+COLOR=0
+"Sub Routine Register Error    "
+"This sub routine has been already       "
+"registered.                             "
+"                                        "
+"                                        "
+"                                        "
+ERR=00153
+COLOR=0
+"                              "
+"                                        "
+"                                        "
+"                                        "
+"                                        "
+"                                        "
+ERR=00154
+COLOR=0
+"                              "
+"                                        "
+"                                        "
+"                                        "
+"                                        "
+"                                        "
+ERR=00155
+COLOR=0
+"                              "
+"                                        "
+"                                        "
+"                                        "
+"                                        "
+"                                        "
+ERR=00156
+COLOR=0
+"                              "
+"                                        "
+"                                        "
+"                                        "
+"                                        "
+"                                        "
+ERR=00157
+COLOR=0
+"                              "
+"                                        "
+"                                        "
+"                                        "
+"                                        "
+"                                        "
+ERR=00158
+COLOR=0
+"                              "
+"                                        "
+"                                        "
+"                                        "
+"                                        "
+"                                        "
+ERR=00159
+COLOR=0
+"                              "
+"                                        "
+"                                        "
+"                                        "
+"                                        "
+"                                        "
+ERR=00160
+COLOR=0
+"                              "
+"                                        "
+"                                        "
+"                                        "
+"                                        "
+"                                        "
+

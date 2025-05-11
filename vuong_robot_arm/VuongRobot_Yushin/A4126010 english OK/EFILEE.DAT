@@ -1,0 +1,151 @@
+SEL=00001
+"Proceed format disk.                    "
+"Please waiting...                       "
+SEL=00002
+"Set up project data.                    "
+"Please waiting...                       "
+SEL=00003
+"Setting up installation disk.           "
+"Please waiting...                       "
+SEL=00004
+"Searching for unit data.                "
+"Please waiting...                       "
+SEL=00005
+"Reading project data.                   "
+"Please waiting...                       "
+SEL=00006
+"Saving unit data.                       "
+"Please waiting...                       "
+SEL=00007
+"Reading unit data.                      "
+"Please waiting...                       "
+SEL=00008
+"Deleteing for project data.             "
+"Please waiting...                       "
+SEL=00009
+"Installting project data.               "
+"Please waiting...                       "
+SEL=00010
+"Backup project data.                    "
+"Please waiting...                       "
+SEL=00011
+"Replacing project data.                 "
+"Please waiting...                       "
+SEL=00012
+"Saving project data.                    "
+"Please waiting...                       "
+SEL=00013
+"Serching for project data.              "
+"Please waiting...                       "
+SEL=00014
+"Sending the Mold data.                  "
+"Please waiting...                       "
+SEL=00015
+"Copying the mold data.                  "
+"Please waiting...                       "
+SEL=00016
+"Making the back up copy of the mold.    "
+"Please waiting...                       "
+SEL=00017
+"Seaching the directory.                 "
+"Please waiting...                       "
+SEL=00018
+"Deleting the Program Data.              "
+"Please waiting...                       "
+SEL=00019
+"Receiving the maintenance data.         "
+"Please waiting...                       "
+SEL=00020
+"Communicating with MSC.                 "
+"Please waiting...                       "
+SEL=00021
+"Printing the data.                      "
+"Please waiting...                       "
+SEL=00022
+"                                        "
+"                                        "
+SEL=00023
+"                                        "
+"                                        "
+SEL=00024
+"                                        "
+"                                        "
+SEL=00025
+"                                        "
+"                                        "
+SEL=00026
+"                                        "
+"                                        "
+SEL=00027
+"                                        "
+"                                        "
+SEL=00028
+"                                        "
+"                                        "
+SEL=00029
+"                                        "
+"                                        "
+SEL=00030
+"                                        "
+"                                        "
+SEL=00031
+"                                        "
+"                                        "
+SEL=00032
+"                                        "
+"                                        "
+SEL=00033
+"                                        "
+"                                        "
+SEL=00034
+"                                        "
+"                                        "
+SEL=00035
+"                                        "
+"                                        "
+SEL=00036
+"                                        "
+"                                        "
+SEL=00037
+"                                        "
+"                                        "
+SEL=00038
+"                                        "
+"                                        "
+SEL=00039
+"                                        "
+"                                        "
+SEL=00040
+"                                        "
+"                                        "
+SEL=00041
+"Converting Unit Data.                   "
+"Please waiting...                       "
+SEL=00042
+"                                        "
+"                                        "
+SEL=00043
+"                                        "
+"                                        "
+SEL=00044
+"                                        "
+"                                        "
+SEL=00045
+"                                        "
+"                                        "
+SEL=00046
+"                                        "
+"                                        "
+SEL=00047
+"                                        "
+"                                        "
+SEL=00048
+"                                        "
+"                                        "
+SEL=00049
+"                                        "
+"                                        "
+SEL=00050
+"                                        "
+"                                        "
+

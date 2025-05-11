@@ -1,0 +1,2263 @@
+Version          1.80(b) - Version Number.( This file belongs to the Editor )
+*----------------------------------------------------------------------------
+***  name       rw    cl    x1   y1   x2   y2   t  hw  vw  s  bc  oc  st f  a   du    v  rf   
+Panl TBEMenu    1     6     1    1    1023 75   2  1   1   12 15  0   0  1  0   0     1  0 
+JusV 0
+Fore 1
+Text 
+JusV 2
+Prim 256 0
+Fore 0
+Text File
+Cell 
+Text 
+JusV 2
+Prim 256 0
+Fore 0
+Text Screen
+Cell
+Text 
+JusV 2
+Prim 256 0 
+Fore 0
+Text Panel
+Cell
+JusH 2
+Size 2
+Fore 1
+Text 
+JusH 0
+JusV 0
+Size 1
+Fore 4
+Text 
+JusH 0
+JusV 2
+Size 1
+Fore 0
+Text Cell
+Cell
+JusH 2
+Size 2
+Fore 1
+Text 
+JusH 0
+JusV 0
+Size 1
+Fore 4
+Text 
+JusH 0
+JusV 2
+Size 1
+Fore 0
+Text Text
+Cell
+Size 1
+JusH 1
+JusV 1
+Fore 0
+Text Options
+Cell
+*----------------------------------------------------------------------------
+***  name       rw    cl    x1   y1   x2   y2   t  hw  vw  s  bc  oc  st f  a   du    v  rf   
+Panl TBEFmenu   5     1     1    78   172  450  2  1   1   12 15  0   0  1  0   0     1  0 
+JusH 0
+JusV 2
+Text Quit
+JusH 2
+JusV 0
+Fore 4
+Text alt Q
+Cell
+Text Save
+JusH 2
+JusV 0
+Fore 4
+Text alt W
+Cell
+Text New
+Cell
+Text Load
+JusH 2
+JusV 0
+Fore 4
+Text alt L
+Cell
+Text Execute
+JusH 2
+JusV 0
+Fore 4
+Text alt E
+Cell
+*----------------------------------------------------------------------------
+***  name       rw    cl    x1   y1   x2   y2   t  hw  vw  s  bc  oc  st f  a   du    v  rf   
+Panl TBESmenu   11    1     169  78   340  730  2  1   1   12 15  0   0  1  0   0     1  0 
+Text P.T.O
+Cell
+JusH 2
+JusV 0
+Fore 1
+Text 
+JusH 0
+JusV 2
+Font 2
+Size 4
+Fore 0
+Text Name
+Cell
+Text 
+JusH 0
+JusV 2
+Font 2
+Size 4
+Fore 0
+Text Mode
+Cell
+Text 
+JusH 0
+JusV 2
+Font 2
+Size 4
+Fore 0
+Text Active Page
+Cell
+Text 
+JusH 0
+JusV 2
+Font 2
+Size 4
+Fore 0
+Text Visual Page
+Cell
+Text 
+JusH 0
+JusV 2
+Font 2
+Size 4
+Fore 0
+Text Timeout
+Cell
+Text 
+JusH 0
+JusV 2
+Font 2
+Size 4
+Fore 0
+Text Background Colour
+Cell
+Text 
+JusH 0
+JusV 2
+Font 2
+Size 4
+Fore 0
+Text Fill Style
+Cell
+Text 
+JusH 0
+JusV 2
+Font 2
+Size 4
+Fore 0
+Text Clock Digital
+Cell
+Text 
+JusH 0
+JusV 2
+Font 2
+Size 4
+Fore 0
+Text Clock Analogue
+Cell
+Text 
+JusH 0
+JusV 2
+Font 2
+Size 4
+Fore 0
+Text Palette
+Cell
+*----------------------------------------------------------------------------
+***  name       rw    cl    x1   y1   x2   y2   t  hw  vw  s  bc  oc  st f  a   du    v  rf   
+Panl TBESedit   8     1     169  78   340  730  2  1   1   12 15  0   0  1  0   0     1  0 
+Text P.T.O
+Cell 
+JusH 0
+Text Next
+Cell
+Text Previous
+Cell
+Text Show 
+Cell 
+Text Delete
+Cell 
+Text Copy
+Cell 
+Text Insert
+Cell 
+Text New
+Cell 
+*----------------------------------------------------------------------------
+***  name       rw    cl    x1   y1   x2   y2   t  hw  vw  s  bc  oc  st f  a   du    v  rf   
+Panl TBEPmenu   13    1     338  78   511  900  2  1   1   12 15  0   0  1  0   0     1  0 
+Text P.T.O
+Cell 
+JusH 2
+JusV 0
+Fore 1
+Text 
+JusH 0
+JusV 2
+Font 2
+Size 4
+Fore 0
+Text Name
+Cell
+Text 
+JusH 0
+JusV 2
+Font 2
+Size 4
+Fore 0
+Text Rows/Columns
+Cell
+Text 
+JusH 0
+JusV 2
+Font 2
+Size 4
+Fore 0
+Text Border Colour
+Cell
+Text 
+JusH 0
+JusV 2
+Font 2
+Size 4
+Fore 0
+Text Border Outline
+Cell
+Text 
+JusH 0
+JusV 2
+Font 2
+Size 4
+Fore 0
+Text Border Width.Horiz
+Cell
+Text 
+JusH 0
+JusV 2
+Font 2
+Size 4
+Fore 0
+Text Border Width.Vert
+Cell
+Text 
+JusH 0
+JusV 2
+Font 2
+Size 4
+Fore 0
+Text Border Style
+Cell
+Text 
+JusH 0
+JusV 2
+Font 2
+Size 4
+Fore 0
+Text Fill Style
+Cell
+Text 
+JusH 0
+JusV 2
+Font 2
+Size 4
+Fore 0
+Text Touch
+Cell
+Text 
+JusH 0
+JusV 2
+Font 2
+Size 4
+Fore 0
+Text Video
+Cell 
+Text 
+JusH 0
+JusV 2
+Font 2
+Size 4
+Fore 0
+Text Audio
+Cell 
+Text 
+JusH 0
+JusV 2
+Font 2
+Size 4
+Fore 0
+Text Repeat freq
+Cell 
+*----------------------------------------------------------------------------
+***  name       rw    cl    x1   y1   x2   y2   t  hw  vw  s  bc  oc  st f  a   du    v  rf   
+Panl TBEPedit   14    1     338  78   511  900  2  1   1   12 15  0   0  1  0   0     1  0 
+Text P.T.O
+Cell 
+JusH 0
+Text Stack
+JusH 2
+JusV 0
+Fore 4
+Text alt P
+Cell
+Text Single 
+Cell 
+Text Move
+JusH 2
+JusV 0
+Fore 4
+Text alt M
+JusV 2
+Text Slow
+Cell
+Text Size
+JusH 2
+JusV 0
+Fore 4
+Text alt S
+JusV 2
+Text Slow
+Cell
+Text Rescale
+Cell 
+JusH 0
+JusV 1
+Text Show
+Cell 
+JusH 0
+Text Remove
+Cell 
+Text Delete
+Cell 
+Text Insert
+Cell 
+Text Copy
+Cell 
+Text New
+JusH 2
+JusV 0
+Fore 4
+Text alt N
+Cell 
+Text Save PDF
+Cell 
+Text Load PDF
+Cell 
+*----------------------------------------------------------------------------
+***  name       rw    cl    x1   y1   x2   y2   t  hw  vw  s  bc  oc  st f  a   du    v  rf   
+Panl TBECmenu  11     1     510  78   682  780  2  1   1   12 15  0   0  1  0   0     1  0 
+JusH 0
+JusV 2
+Text Single Cell
+JusH 2
+JusV 0
+Fore 4
+Text alt C
+Cell
+JusH 2
+JusV 0
+Fore 1
+Text 
+JusH 0
+JusV 2
+Font 2
+Size 4
+Fore 0
+Text Background Colour
+Cell
+Text 
+JusH 0
+JusV 2
+Font 2
+Size 4
+Fore 0
+Text Border Colour
+Cell
+Text 
+JusH 2
+JusV 2
+Fore 1
+Text 
+JusH 0
+JusV 2
+Font 2
+Size 4
+Fore 0
+Text Image
+Cell
+Text 
+JusH 0
+JusV 2
+Font 2
+Size 4
+Fore 0
+Text Primitive
+Cell
+Text 
+JusH 0
+JusV 2
+Font 2
+Size 4
+Fore 0
+Text Prim Border Colour
+Cell
+Text 
+JusH 0
+JusV 2
+Font 2
+Size 4
+Fore 0
+Text Prim Fill Style
+Cell
+Text 
+JusH 0
+JusV 2
+Font 2
+Size 4
+Fore 0
+Text Prim Fill Colour
+Cell
+Text 
+JusH 0
+JusV 2
+Font 2
+Size 4
+Fore 0
+Text Video
+Cell
+Text 
+JusH 0
+JusV 2
+Font 2
+Size 4
+Fore 0
+Text Touch On/Off
+Cell
+JusH 0
+JusV 2
+Font 2
+Size 4
+Fore 0
+Text Consequences
+Cell
+*----------------------------------------------------------------------------
+***  name       rw    cl    x1   y1   x2   y2   t  hw  vw  s  bc  oc  st f  a   du    v  rf   
+Panl TBETmenu   9     1     679  78   854  669  2  1   1   12 15  0   0  1  0   0     1  0 
+JusH 0
+JusV 2
+Text Single Text
+JusH 2
+JusV 0
+Fore 4
+Text alt B
+Cell
+JusH 2
+JusV 0
+Fore 1
+Text 
+JusH 0
+JusV 2
+Font 2
+Size 4
+Fore 0
+Text Foreground Colour
+Cell
+Text 
+JusH 0
+JusV 2
+Font 2
+Size 4
+Fore 0
+Text Font
+Cell
+Text 
+JusH 0
+JusV 2
+Font 2
+Size 4
+Fore 0
+Text Size
+Cell
+Text 
+JusH 0
+JusV 2
+Font 2
+Size 4
+Fore 0
+Text Justify Horiz
+Cell
+Text 
+JusH 0
+JusV 2
+Font 2
+Size 4
+Fore 0
+Text Justify Vert
+Cell
+Text 
+JusH 0
+JusV 2
+Font 2
+Size 4
+Fore 0
+Text Direction
+Cell
+JusH 0
+JusV 2
+Font 2
+Size 4
+Fore 0
+Text New Text Block
+Cell
+Font 0
+Size 1
+JusH 2
+JusV 2
+Fore 4
+Text alt T
+JusH 0
+JusV 0
+Fore 1
+Text 
+JusH 0
+JusV 2
+Fore 0
+Font 2
+Size 4
+Text Text
+Cell
+*----------------------------------------------------------------------------
+***  name       rw    cl    x1   y1   x2   y2   t  hw  vw  s  bc  oc  st f  a   du    v  rf   
+Panl TBEMmenu   8     1     850  78   1023 600  2  1   1   12 15  0   0  1  0   0     1  0 
+JusH 0
+JusV 2
+Text Help
+JusH 2
+JusV 0
+Fore 4
+Text alt H
+Cell
+Text Redraw
+JusH 2
+JusV 0
+Fore 4
+Text alt R
+Cell
+Text View mode
+JusH 2
+JusV 0
+Fore 4
+Text alt V
+Cell
+JusH 2
+JusV 0
+Fore 1
+Text 
+JusH 0
+Text 
+JusH 0
+JusV 2
+Fore 0
+Text Palette Edit
+Cell
+Text 
+JusH 0
+Text 
+JusH 0
+JusV 2
+Fore 0
+Text Palette View
+Cell
+Text 
+JusH 0
+JusV 2
+Fore 0
+Text Sound
+Cell
+Text 
+JusH 0
+JusV 2
+Fore 0
+Text Cursor Speed
+Cell
+JusH 0
+JusV 2
+Fore 0
+Text Save Tools
+Cell
+*----------------------------------------------------------------------------
+***  name       rw    cl    x1   y1   x2   y2   t  hw  vw  s  bc  oc  st f  a   du    v  rf   
+Panl TBEOcol16  16    1     858  84   1020 963  2  1   1   12 0   0   0  1  0   0     1  0
+Back 0
+JusH 0
+Text Black
+JusH 2
+Text 0
+Cell 
+Back 1
+Text Blue
+JusH 2
+Text 1
+Cell 
+Back 2
+Text Green
+JusH 2
+Text 2
+Cell 
+Back 3
+Text Cyan
+JusH 2
+Text 3
+Cell 
+Back 4
+Text Red
+JusH 2
+Text 4
+Cell 
+Back 5
+Text Magenta
+JusH 2
+Text 5
+Cell 
+Back 6
+Text Brown
+JusH 2
+Text 6
+Cell 
+Back 7
+Text L/Gray
+JusH 2
+Text 7
+Cell 
+Back 8
+Text D/Gray
+JusH 2
+Text 8
+Cell 
+Back 9
+Text L/Blue
+JusH 2
+Text 9
+Cell 
+Back 10
+Text L/Green
+JusH 2
+Text 10
+Cell 
+Back 11
+Text L/Cyan
+JusH 2
+Text 11
+Cell 
+Back 12
+Text L/Red
+JusH 2
+Text 12
+Cell 
+Back 13
+Text L/Magnta
+JusH 2
+Text 13
+Cell 
+Back 14
+Text Yellow
+JusH 2
+Text 14
+Cell 
+Back 15
+Text White
+JusH 2
+Text 15
+Cell 
+*----------------------------------------------------------------------------
+***  name       rw    cl    x1   y1   x2   y2   t  hw  vw  s  bc  oc  st f  a   du    v  rf   
+Panl TBEOcol256 32    8     858  84   1020 963  2  1   1   0  0   255 0  1  0   0     1  0
+Back 0
+Fore 255
+Text
+Cell 
+Back 1
+Text
+Cell 
+Back 2
+Text
+Cell 
+Back 3
+Text
+Cell 
+Back 4
+Text
+Cell 
+Back 5
+Cell 
+Back 6
+Cell 
+Back 7
+Cell 
+Back 8
+Cell 
+Back 9
+Cell 
+Back 10
+Cell 
+Back 11
+Cell 
+Back 12
+Cell 
+Back 13
+Cell 
+Back 14
+Cell 
+Back 15
+Cell 
+Back 16
+Cell 
+Back 17
+Cell 
+Back 18
+Cell 
+Back 19
+Cell 
+Back 20
+Cell 
+Back 21
+Cell 
+Back 22
+Cell 
+Back 23
+Cell 
+Back 24
+Cell 
+Back 25
+Cell 
+Back 26
+Cell 
+Back 27
+Cell 
+Back 28
+Cell 
+Back 29
+Cell 
+Back 30
+Cell 
+Back 31
+Cell 
+Back 32
+Cell 
+Back 33
+Cell 
+Back 34
+Cell 
+Back 35
+Cell 
+Back 36
+Cell 
+Back 37
+Cell 
+Back 38
+Cell 
+Back 39
+Cell 
+Back 40
+Cell 
+Back 41
+Cell 
+Back 42
+Cell 
+Back 43
+Cell 
+Back 44
+Cell 
+Back 45
+Cell 
+Back 46
+Cell 
+Back 47
+Cell 
+Back 48
+Cell 
+Back 49
+Cell 
+Back 50
+Cell 
+Back 51
+Cell 
+Back 52
+Cell 
+Back 53
+Cell 
+Back 54
+Cell 
+Back 55
+Cell 
+Back 56
+Cell 
+Back 57
+Cell 
+Back 58
+Cell 
+Back 59
+Cell 
+Back 60
+Cell 
+Back 61
+Cell 
+Back 62
+Cell 
+Back 63
+Cell 
+Back 64
+Cell 
+Back 65
+Cell 
+Back 66
+Cell 
+Back 67
+Cell 
+Back 68
+Cell 
+Back 69
+Cell 
+Back 70
+Cell 
+Back 71
+Cell 
+Back 72
+Cell 
+Back 73
+Cell 
+Back 74
+Cell 
+Back 75
+Cell 
+Back 76
+Cell 
+Back 77
+Cell 
+Back 78
+Cell 
+Back 79
+Cell 
+Back 80
+Cell 
+Back 81
+Cell 
+Back 82
+Cell 
+Back 83
+Cell 
+Back 84
+Cell 
+Back 85
+Cell 
+Back 86
+Cell 
+Back 87
+Cell 
+Back 88
+Cell 
+Back 89
+Cell 
+Back 90
+Cell 
+Back 91
+Cell 
+Back 92
+Cell 
+Back 93
+Cell 
+Back 94
+Cell 
+Back 95
+Cell 
+Back 96
+Cell 
+Back 97
+Cell 
+Back 98
+Cell 
+Back 99
+Cell 
+Back 100
+Cell 
+Back 101
+Cell 
+Back 102
+Cell 
+Back 103
+Cell 
+Back 104
+Cell 
+Back 105
+Cell 
+Back 106
+Cell 
+Back 107
+Cell 
+Back 108
+Cell 
+Back 109
+Cell 
+Back 110
+Cell 
+Back 111
+Cell 
+Back 112
+Cell 
+Back 113
+Cell 
+Back 114
+Cell 
+Back 115
+Cell 
+Back 116
+Cell 
+Back 117
+Cell 
+Back 118
+Cell 
+Back 119
+Cell 
+Back 120
+Cell 
+Back 121
+Cell 
+Back 122
+Cell 
+Back 123
+Cell 
+Back 124
+Cell 
+Back 125
+Cell 
+Back 126
+Cell 
+Back 127
+Cell 
+Back 128
+Cell 
+Back 129
+Cell 
+Back 130
+Cell 
+Back 131
+Cell 
+Back 132
+Cell 
+Back 133
+Cell 
+Back 134
+Cell 
+Back 135
+Cell 
+Back 136
+Cell 
+Back 137
+Cell 
+Back 138
+Cell 
+Back 139
+Cell 
+Back 140
+Cell 
+Back 141
+Cell 
+Back 142
+Cell 
+Back 143
+Cell 
+Back 144
+Cell 
+Back 145
+Cell 
+Back 146
+Cell 
+Back 147
+Cell 
+Back 148
+Cell 
+Back 149
+Cell 
+Back 150
+Cell 
+Back 151
+Cell 
+Back 152
+Cell 
+Back 153
+Cell 
+Back 154
+Cell 
+Back 155
+Cell 
+Back 156
+Cell 
+Back 157
+Cell 
+Back 158
+Cell 
+Back 159
+Cell 
+Back 160
+Cell 
+Back 161
+Cell 
+Back 162
+Cell 
+Back 163
+Cell 
+Back 164
+Cell 
+Back 165
+Cell 
+Back 166
+Cell 
+Back 167
+Cell 
+Back 168
+Cell 
+Back 169
+Cell 
+Back 170
+Cell 
+Back 171
+Cell 
+Back 172
+Cell 
+Back 173
+Cell 
+Back 174
+Cell 
+Back 175
+Cell 
+Back 176
+Cell 
+Back 177
+Cell 
+Back 178
+Cell 
+Back 179
+Cell 
+Back 180
+Cell 
+Back 181
+Cell 
+Back 182
+Cell 
+Back 183
+Cell 
+Back 184
+Cell 
+Back 185
+Cell 
+Back 186
+Cell 
+Back 187
+Cell 
+Back 188
+Cell 
+Back 189
+Cell 
+Back 190
+Cell 
+Back 191
+Cell 
+Back 192
+Cell 
+Back 193
+Cell 
+Back 194
+Cell 
+Back 195
+Cell 
+Back 196
+Cell 
+Back 197
+Cell 
+Back 198
+Cell 
+Back 199
+Cell 
+Back 200
+Cell 
+Back 201
+Cell 
+Back 202
+Cell 
+Back 203
+Cell 
+Back 204
+Cell 
+Back 205
+Cell 
+Back 206
+Cell 
+Back 207
+Cell 
+Back 208
+Cell 
+Back 209
+Cell 
+Back 210
+Cell 
+Back 211
+Cell 
+Back 212
+Cell 
+Back 213
+Cell 
+Back 214
+Cell 
+Back 215
+Cell 
+Back 216
+Cell 
+Back 217
+Cell 
+Back 218
+Cell 
+Back 219
+Cell 
+Back 220
+Cell 
+Back 221
+Cell 
+Back 222
+Cell 
+Back 223
+Cell 
+Back 224
+Cell 
+Back 225
+Cell 
+Back 226
+Cell 
+Back 227
+Cell 
+Back 228
+Cell 
+Back 229
+Cell 
+Back 230
+Cell 
+Back 231
+Cell 
+Back 232
+Cell 
+Back 233
+Cell 
+Back 234
+Cell 
+Back 235
+Cell 
+Back 236
+Cell 
+Back 237
+Cell 
+Back 238
+Cell 
+Back 239
+Cell 
+Back 240
+Cell 
+Back 241
+Cell 
+Back 242
+Cell 
+Back 243
+Cell 
+Back 244
+Cell 
+Back 245
+Cell 
+Back 246
+Cell 
+Back 247
+Cell 
+Back 248
+Cell 
+Back 249
+Cell 
+Back 250
+Cell 
+Back 251
+Cell 
+Back 252
+Cell 
+Back 253
+Cell 
+Back 254
+Cell 
+Prim 96 0 
+JusH 2
+Cell 
+*----------------------------------------------------------------------------
+***  name       rw    cl    x1   y1   x2   y2   t  hw  vw  s  bc  oc  st f  a   du    v  rf   
+Panl TBEOcolN   1     1     858  969  1020 1018 2  1   1   12 15  0   0  1  0   0     1  0
+JusH 2
+Text 255 
+JusH 0
+Text  None
+Cell 
+*----------------------------------------------------------------------------
+***  name       rw    cl    x1   y1   x2   y2   t  hw  vw  s  bc  oc  st f  a   du    v  rf   
+Panl TBEOcolB   1     1     855  78   1023 1023 0  1   1   12 15  0   0  1  0   0     0  0
+Cell 
+*----------------------------------------------------------------------------
+***  name       rw    cl    x1   y1   x2   y2   t  hw  vw  s  bc  oc  st f  a   du    v  rf   
+Panl TBEO64pal  16    4     10   190  820  1016 2  1   1   12 15  0   0  1  0   0     1  0 
+JusH 0
+Fore 15
+Text  Black
+JusH 2
+Text 0
+Cell 
+Fore 15
+Text  Blue
+JusH 2
+Text 1
+Cell 
+Fore 0
+Text  Green
+JusH 2
+Text 2
+Cell 
+Fore 0
+Text  Cyan
+JusH 2
+Text 3
+Cell 
+Fore 15
+Text  Red
+JusH 2
+Text 4
+Cell 
+Fore 15
+Text  Magenta
+JusH 2
+Text 5
+Cell 
+Fore 15
+Text  KahKi
+JusH 2
+Text 6
+Cell 
+Fore 0
+Text  L/Gray
+JusH 2
+Text 7
+Cell 
+Fore 15
+Text  NavyBlue
+JusH 2
+Text 8
+Cell 
+Fore 0
+Text  MidBlue
+JusH 2
+Text 9
+Cell 
+Text  Green
+JusH 2
+Text 10
+Cell 
+Text  SkyBlue
+JusH 2
+Text 11
+Cell 
+Text  Crimson
+JusH 2
+Text 12
+Cell 
+Text  Mauve
+JusH 2
+Text 13
+Cell 
+Text  L/KahKi
+JusH 2
+Text 14
+Cell 
+Fore 0
+Text  Violet
+JusH 2
+Text 15
+Cell 
+Fore 15
+Text  D/Green
+JusH 2
+Text 16
+Cell 
+Text  F/Navy
+JusH 2
+Text 17
+Cell 
+Fore 0
+Text  LimeGreen
+JusH 2
+Text 18
+Cell 
+Text  MintGreen
+JusH 2
+Text 19
+Cell 
+Fore 15
+Text  Brown
+JusH 2
+Text 20
+Cell 
+Text  Magenta
+JusH 2
+Text 21
+Cell 
+Fore 0
+Text  L/Green
+JusH 2
+Text 22
+Cell 
+Text  PaleGreen
+JusH 2
+Text 23
+Cell 
+Fore 15
+Text  D/Gray
+JusH 2
+Text 24
+Cell 
+Text  MidBlue
+JusH 2
+Text 25
+Cell 
+Fore 0
+Text  LimeGreen
+JusH 2
+Text 26
+Cell 
+Text  L/Blue
+JusH 2
+Text 27
+Cell 
+Fore 15
+Text  Brown
+JusH 2
+Text 28
+Cell 
+Text  Mauve
+JusH 2
+Text 29
+Cell 
+Fore 0
+Text  L/Green
+JusH 2
+Text 30
+Cell 
+Text  PaleBlue
+JusH 2
+Text 31
+Cell 
+Fore 15
+Text  D/Brown
+JusH 2
+Text 32
+Cell 
+Text  F/Navy
+JusH   2
+Text 33
+Cell 
+Fore 0
+Text  Green
+JusH 2
+Text 34
+Cell 
+Text  Cyan
+JusH 2
+Text 35
+Cell 
+Fore 15
+Text  Scarlet
+JusH 2
+Text 36
+Cell 
+Text  Cerise
+JusH 2
+Text 37
+Cell 
+Fore 0
+Text  Orange
+JusH 2
+Text 38
+Cell 
+Text  Pink
+JusH 2
+Text 39
+Cell 
+Fore 15
+Text  D/Purple
+JusH 2
+Text 40
+Cell 
+Text  MidBlue
+JusH 2
+Text 41
+Cell 
+Fore 0
+Text  Green
+JusH 2
+Text 42
+Cell 
+Text  SkyBlue
+JusH 2
+Text 43
+Cell 
+Fore 15
+Text  Scarlet
+JusH 2
+Text 44
+Cell 
+Text  Purple
+JusH 2
+Text 45
+Cell 
+Fore 0
+Text  Orange
+JusH 2
+Text 46
+Cell 
+Fore 0
+Text  Lilac
+JusH 2
+Text 47
+Cell 
+Fore 15
+Text  D/Green
+JusH 2
+Text 48
+Cell 
+Text  F/Navy
+JusH 2
+Text 49
+Cell 
+Fore 0
+Text  LimeGreen
+JusH 2
+Text 50
+Cell 
+Text  MintGreen
+JusH 2
+Text 51
+Cell 
+Fore 15
+Text  D/Orange
+JusH 2
+Text 52
+Cell 
+Text  Cerise
+JusH 2
+Text 53
+Cell 
+Fore 0
+Text  B/Yellow
+JusH 2
+Text 54
+Cell 
+Text  Lemon
+JusH 2
+Text 55
+Cell 
+Fore 15
+Text  D/Gray
+JusH 2
+Text 56
+Cell 
+Text  L/Blue
+JusH 2
+Text 57
+Cell 
+Fore 0
+Text  L/Green
+JusH 2
+Text 58
+Cell 
+Text  L/Cyan
+JusH 2
+Text 59
+Cell 
+Fore 15
+Text  L/Red
+JusH 2
+Text 60
+Cell 
+Text  L/Magnta
+JusH 2
+Text 61
+Cell 
+Fore 0
+Text  Yellow
+JusH 2
+Text 62
+Cell 
+Text  White
+JusH 2
+Text 63
+Cell 
+*----------------------------------------------------------------------------
+***  name       rw    cl    x1   y1   x2   y2   t  hw  vw  s  bc  oc  st f  a   du    v  rf   
+Panl TBEOfont   10    1     855  205  1023 815  2  1   1   12 15  0   0  1  0   0     1  0 
+Text Standard
+Cell
+Text Triplex
+Cell
+Text Small
+Cell
+Text SansSerif
+Cell
+Text Gothic
+Cell
+Text Script
+Cell
+Text Simplex
+Cell
+Text Complex
+Cell
+Text Eurostyle
+Cell
+Text Custom Fonts
+Cell
+*----------------------------------------------------------------------------
+***  name       rw    cl    x1   y1   x2   y2   t  hw  vw  s  bc  oc  st f  a   du    v  rf   
+Panl TBEOsize   10    1     855  270  1023 740  2  1   1   12 15  0   0  1  0   0     1  0 
+Text 1
+Cell
+Text 2
+Cell
+Text 3
+Cell
+Text 4
+Cell
+Text 5
+Cell
+Text 6
+Cell
+Text 7
+Cell
+Text 8
+Cell
+Text 9
+Cell
+Text 10
+Cell
+*----------------------------------------------------------------------------
+***  name       rw    cl    x1   y1   x2   y2   t  hw  vw  s  bc  oc  st f  a   du    v  rf   
+Panl TBEOfill   11    1     854  78   1023 1023 2  1   1   12 15  0   0  1  0   0     1  0 
+JusH 2
+JusV 2
+Prim 4096 7 1 3
+Text Solid
+Cell 
+Prim 4096 7 2 3
+Text Horiz Line
+Cell 
+Prim 4096 7 3 3
+Text Thin /
+Cell 
+Prim 4096 7 4 3
+Text Thick /
+Cell 
+Prim 4096 7 5 3
+Text Thick \
+Cell 
+Prim 4096 7 6 3
+Text Thin \
+Cell 
+Prim 4096 7 7 3
+Text Light Hatch
+Cell 
+Prim 4096 7 8 3
+Text Heavy Hatch
+Cell 
+Prim 4096 7 9 3
+Text Interleave
+Cell 
+Prim 4096 7 10 3
+Text Wide Dots
+Cell 
+Prim 4096 7 11 3
+Text Close Dots
+Cell 
+*----------------------------------------------------------------------------
+***  name       rw    cl    x1   y1   x2   y2   t  hw  vw  s  bc  oc  st f  a   du    v  rf   
+Panl TBEOprim   7     2     684  340  873  927  2  1   1   12 15  0   0  1  0   0     1  0 
+Text None
+Cell 
+Prim 1 8 1 3
+Fore 255
+Text Circle
+Cell 
+Prim 2 8 1 3
+Text Left Arrow
+Cell 
+Prim 4 8 1 3
+Text Right Arrow
+Cell 
+Prim 8 8 1 3
+Text Up Arrow
+Cell 
+Prim 16 8 1 3
+Text Down Arrow
+Cell 
+Prim 32 8 
+Text Diag TL/BR
+Cell 
+Prim 64 8 
+Text Diag BL/TR
+Cell 
+Prim 128 8 
+Text Vert Bar
+Cell 
+Prim 256 8 
+Text Horiz Bar
+Cell 
+Prim 512 8 1 3
+Text NW point
+Cell 
+Prim 1024 8 1 3
+Text NE point
+Cell 
+Prim 2048 8 1 3
+Text SE point
+Cell 
+Prim 4096 8 1 3
+Text SW point
+Cell 
+*----------------------------------------------------------------------------
+***  name       rw    cl    x1   y1   x2   y2   t  hw  vw  s  bc  oc  st f  a   du    v  rf   
+Panl TBEObsty   7     1     512  460  720  835  2  1   1   12 15  0   0  1  0   0     1  0 
+Text Solid
+Cell
+Text Dotted
+Cell
+Text Centre
+Cell
+Text Dashed
+Cell
+Text Bevelled
+Cell
+Text Curved
+Cell
+Text 3D
+Cell
+*----------------------------------------------------------------------------
+***  name       rw    cl    x1   y1   x2   y2   t  hw  vw  s  bc  oc  st f  a   du    v  rf   
+Panl TBEOimge   3     1     684  272  850  500  2  1   1   12 15  0   0  1  0   0     1  0 
+Font 2
+Size 4
+JusH 0
+JusV 2
+Text Delete Image
+Cell
+Font 0
+Size 1
+JusH 2
+JusV 0
+Fore 1
+Text 0
+JusH 0
+JusV 0
+Text
+Font 2
+Size 4
+JusH 0
+JusV 2
+Fore 0
+Text Palette Control
+Cell
+Text False
+Font 2
+Size 4
+JusH 0
+JusV 2
+Fore 0
+Text Ram Resident
+Cell
+*----------------------------------------------------------------------------
+***  name       rw    cl    x1   y1   x2   y2   t  hw  vw  s  bc  oc  st f  a   du    v  rf   
+Panl TBEOjusv   3     1     855  400  1023 600  2  1   1   12 15  0   0  1  0   0     1  0 
+Text Top
+Cell
+Text Centre
+Cell
+Text Bottom
+Cell
+*----------------------------------------------------------------------------
+***  name       rw    cl    x1   y1   x2   y2   t  hw  vw  s  bc  oc  st f  a   du    v  rf   
+Panl TBEOjush   3     1     855  340  1023 540  2  1   1   12 15  0   0  1  0   0     1  0 
+JusH 0
+Text Left
+Cell
+JusH 1
+Text Centre
+Cell
+JusH 2
+Text Right
+Cell
+*----------------------------------------------------------------------------
+***  name       rw    cl    x1   y1   x2   y2   t  hw  vw  s  bc  oc  st f  a   du    v  rf   
+Panl TBEOdirn   2     1     855  470  1023 590  2  1   1   12 15  0   0  1  0   0     1  0 
+Text Horizontal
+Cell
+Text Vertical
+Cell
+*----------------------------------------------------------------------------
+***  name       rw    cl    x1   y1   x2   y2   t  hw  vw  s  bc  oc  st f  a   du    v  rf   
+Panl TBEOtouch  4     1     512  598  680  865  2  1   1   12 15  0   0  1  0   0     1  0 
+Text None
+Cell
+Text Slide
+Cell
+Text Repeat
+Cell
+Text Delayed|Repeat
+Cell
+*----------------------------------------------------------------------------
+***  name       rw    cl    x1   y1   x2   y2   t  hw  vw  s  bc  oc  st f  a   du    v  rf   
+Panl TBEOvideo  10    1     512  530  780  1023 2  1   1   12 15  0   0  1  0   0     1  0 
+JusH 0
+Text None
+Cell
+Text Full
+Cell
+Text Border
+Cell
+Text Text
+Cell
+Fore 255
+Text |Full   (t/T)
+Fore 0
+Text Full   toggle/Touch
+Cell
+Text |Full   (t/L)
+Fore 0
+Text Full   toggle/Lift
+Cell
+Text |Border (t/T)
+Fore 0
+Text Border toggle/Touch
+Cell
+Text |Border (t/L)
+Fore 0
+Text Border toggle/Lift
+Cell
+Text |Text   (t/T)
+Fore 0
+Text Text   toggle/Touch
+Cell
+Text |Text   (t/L)
+Fore 0
+Text Text   toggle/Lift
+Cell
+*----------------------------------------------------------------------------
+***  name       rw    cl    x1   y1   x2   y2   t  hw  vw  s  bc  oc  st f  a   du    v  rf   
+Panl TBEOmode   14    1     341  197  650  885  2  1   1   12 15  0   0  1  0   0     1  0 
+Toff
+Fore 1
+Text Standard Modes
+Cell
+JusH 0
+Fore 0
+Text  13 - EGA   640x350x16
+Cell
+Text  26 - VGA   640x480x16
+Cell
+Text  44 - Text    80x25x16
+Cell
+Text  45 - Text    80x43x16
+Cell
+Text  46 - Text    80x50x16
+Cell
+Toff
+JusH 1
+Fore 1
+Text NON Standard Modes
+Cell
+JusH 0
+Fore 0
+Text  31 -      640x350x256
+Cell
+Text  32 -      640x400x256
+Cell
+Text  33 -      640x480x256
+Cell
+Text  34 -      800x600x256
+Cell
+Text  35 -     1024x768x256
+Cell
+Text  38 -       800x600x16
+Cell
+Text  39 -      1024x768x16
+Cell
+*----------------------------------------------------------------------------
+***  name       rw    cl    x1   y1   x2   y2   t  hw  vw  s  bc  oc  st f  a   du    v  rf   
+Panl TBEOclock  5     1     353  589  640  850  2  1   1   12 15  0   0  1  0   0     1  0 
+JusH 0
+Text  0 - No Clock
+Cell
+Text  1 - 24 Hour + Secs
+Cell
+Text  2 - 24 Hour
+Cell
+Text  3 - 12 Hour + Secs
+Cell
+Text  4 - 12 Hour
+Cell
+*----------------------------------------------------------------------------
+***  name       rw    cl    x1   y1   x2   y2   t  hw  vw  s  bc  oc  st f  a   du    v  rf   
+Panl TBEOclockZ 1     1     353  860  480  960  2  1   1   12 15  0   0  1  0   0     1  0 
+JusH 2
+JusV 0
+Fore 1
+Text On
+JusH 0
+JusV 2
+Fore 0
+Text Leading|Zeroes
+Cell
+*----------------------------------------------------------------------------
+***  name       rw    cl    x1   y1   x2   y2   t  hw  vw  s  bc  oc  st f  a   du    v  rf   
+Panl TBEOclockF 1     1     490  860  640  960  2  1   1   12 15  0   0  1  0   0     1  0 
+JusH 2
+JusV 0
+Fore 1
+Text   
+JusH 0
+JusV 2
+Fore 0
+Text Change|Separators
+Cell
+*----------------------------------------------------------------------------
+***  name       rw    cl    x1   y1   x2   y2   t  hw  vw  s  bc  oc  st f  a   du    v  rf   
+Panl TBEOclockB 1     1     343  548  650  970  1  1   1   12 15  0   0  1  0   0     0  0 
+JusV 2
+Text Digital Clock Styles
+*----------------------------------------------------------------------------
+***  name       rw    cl    x1   y1   x2   y2   t  hw  vw  s  bc  oc  st f  a   du    v  rf   
+Panl TBEOclckC  1     3     353  912  640  1015 2  1   1   12 15  0   0  1  0   0     1  0 
+Text Hour|Hand
+Cell
+Text Minute|Hand
+Cell
+Text Second|Hand
+Cell
+*----------------------------------------------------------------------------
+***  name       rw    cl    x1   y1   x2   y2   t  hw  vw  s  bc  oc  st f  a   du    v  rf   
+Panl TBEOclck   4     1     353  649  640  910  2  1   1   12 15  0   0  1  0   0     1  0 
+JusH 0
+Text  0 - No clock
+Cell
+Text  1 - No marks
+Cell
+Text  2 - 5 min marks
+Cell
+Text  3 - 60 min marks
+Cell
+*----------------------------------------------------------------------------
+***  name       rw    cl    x1   y1   x2   y2   t  hw  vw  s  bc  oc  st f  a   du    v  rf   
+Panl TBEOclckB  1     1     343  608  650  1023 1  1   1   12 15  0   0  1  0   0     0  0 
+JusV 2
+Text Analogue Clock Styles
+*----------------------------------------------------------------------------
+***  name       rw    cl    x1   y1   x2   y2   t  hw  vw  s  bc  oc  st f  a   du    v  rf   
+Panl TBEOvid    5     1     684  620  850  910  2  1   1   12 15  0   0  1  0   0     1  0 
+JusH 2
+JusV 0
+Fore 1
+Text 
+Font 2
+Size 4
+JusH 0
+JusV 2
+Fore 0
+Text Type
+Cell
+Text 
+Font 2
+Size 4
+JusH 0
+JusV 2
+Fore 0
+Text Board
+Cell
+Text 
+Font 2
+Size 4
+JusH 0
+JusV 2
+Fore 0
+Text Standard
+Cell
+Text 
+Font 2
+Size 4
+JusH 0
+JusV 2
+Fore 0
+Text Fade
+Cell
+Text 
+Font 2
+Size 4
+JusH 0
+JusV 2
+Fore 0
+Text Overlay Colour
+Cell
+*----------------------------------------------------------------------------
+***  name       rw    cl    x1   y1   x2   y2   t  hw  vw  s  bc  oc  st f  a   du    v  rf   
+Panl TBEnumT    1     1     764  123  1015 196  2  1   1   12 15  0   0  1  0   0     1  0 
+JusH 2
+Size 2
+Text number
+Cell
+*----------------------------------------------------------------------------
+***  name       rw    cl    x1   y1   x2   y2   t  hw  vw  s  bc  oc  st f  a   du    v  rf   
+Panl TBEnumQ    1     1     764  85   1015 120  0  0   0   0  0   255 0  1  0   0     0  0 
+JusH 0
+JusV 2
+Text Question
+Cell
+*----------------------------------------------------------------------------
+***  name       rw    cl    x1   y1   x2   y2   t  hw  vw  s  bc  oc  st f  a   du    v  rf   
+Panl TBEnum     5     3     764  205  1015 565  2  1   1   12 15  0   0  1  0   0     1  0 
+Text 1
+Cell
+Text 2
+Cell
+Text 3
+Cell
+Text 4
+Cell
+Text 5
+Cell
+Text 6
+Cell
+Text 7
+Cell
+Text 8
+Cell
+Text 9
+Cell
+Text 0
+Cell
+Text 00
+Cell
+Text 000
+Cell
+Text Clear
+Cell
+Text Cancel
+Cell
+Text Ok
+Cell
+*----------------------------------------------------------------------------
+***  name       rw    cl    x1   y1   x2   y2   t  hw  vw  s  bc  oc  st f  a   du    v  rf   
+Panl TBEBarnum  1     1     764  576  784  644  0  1   1   10 15  255 0  9  0   0     0  0
+Cell 
+*----------------------------------------------------------------------------
+***  name       rw    cl    x1   y1   x2   y2   t  hw  vw  s  bc  oc  st f  a   du    v  rf   
+Panl TBEnumWI   1     1     983  572  1015 648  2  1   1   12 15  0   0  1  0   0     1  10
+Prim 4 8 1 7
+Cell 
+*----------------------------------------------------------------------------
+***  name       rw    cl    x1   y1   x2   y2   t  hw  vw  s  bc  oc  st f  a   du    v  rf   
+Panl TBEnumW    1     1     796  572  981  648  2  1   1   12 15  0   0  1  0   0     0  0
+Cell 
+*----------------------------------------------------------------------------
+***  name       rw    cl    x1   y1   x2   y2   t  hw  vw  s  bc  oc  st f  a   du    v  rf   
+Panl TBEnumWD   1     1     764  572  794  648  2  1   1   12 15  0   0  1  0   0     1  10
+Prim 2 8 1 7
+Cell 
+*----------------------------------------------------------------------------
+***  name       rw    cl    x1   y1   x2   y2   t  hw  vw  s  bc  oc  st f  a   du    v  rf   
+Panl TBEnumB    1     1     756  78   1023 661  1  1   1   12 15  0   0  1  0   0     0  0 
+Cell
+*----------------------------------------------------------------------------
+***  name       rw    cl    x1   y1   x2   y2   t  hw  vw  s  bc  oc  st f  a   du    v  rf   
+Panl TBEBarsel  1     1     311  800  368  840  0  1   1   10 15  255 0  9  0   0     0  0
+Cell 
+*----------------------------------------------------------------------------
+***  name       rw    cl    x1   y1   x2   y2   t  hw  vw  s  bc  oc  st f  a   du    v  rf   
+Panl TBEselWI   1     1     310  958  370  1008 2  1   1   12 15  0   0  1  0   0     1  10
+Prim 16 8 1 7
+Cell 
+*----------------------------------------------------------------------------
+***  name       rw    cl    x1   y1   x2   y2   t  hw  vw  s  bc  oc  st f  a   du    v  rf   
+Panl TBEselW    1     1     310  625  370  955  2  1   1   12 15  0   0  1  0   0     0  0
+Cell 
+*----------------------------------------------------------------------------
+***  name       rw    cl    x1   y1   x2   y2   t  hw  vw  s  bc  oc  st f  a   du    v  rf   
+Panl TBEselWD   1     1     310  570  370  620  2  1   1   12 15  0   0  1  0   0     1  10
+Prim 8 8 1 7
+Cell 
+*----------------------------------------------------------------------------
+***  name       rw    cl    x1   y1   x2   y2   t  hw  vw  s  bc  oc  st f  a   du    v  rf   
+Panl TBEselList 10    1     10   570  302  1008 2  1   1   12 15  0   0  1  0   0     1  0 
+JusH 0
+Text  
+JusH 2
+Text  
+Cell
+Text  
+JusH 2
+Text  
+Cell
+Text  
+JusH 2
+Text  
+Cell
+Text  
+JusH 2
+Text  
+Cell
+Text  
+JusH 2
+Text  
+Cell
+Text  
+JusH 2
+Text  
+Cell
+Text  
+JusH 2
+Text  
+Cell
+Text  
+JusH 2
+Text  
+Cell
+Text  
+JusH 2
+Text  
+Cell
+Text  
+JusH 2
+Text  
+Cell
+*----------------------------------------------------------------------------
+***  name       rw    cl    x1   y1   x2   y2   t  hw  vw  s  bc  oc  st f  a   du    v  rf   
+Panl TBEselT    1     1     10   445  370  550  2  1   1   12 15  0   0  1  0   0     1  0 
+JusH 0
+JusV 0
+Text Path Name
+JusH 1
+JusV 2
+Text Selector Title
+Cell
+*----------------------------------------------------------------------------
+***  name       rw    cl    x1   y1   x2   y2   t  hw  vw  s  bc  oc  st f  a   du    v  rf   
+Panl TBEselBack 1     1     1    430  380  1023 1  1   1   12 15  0   0  1  0   0     0  0 
+Cell
+*----------------------------------------------------------------------------
+***  name       rw    cl    x1   y1   x2   y2   t  hw  vw  s  bc  oc  st f  a   du    v  rf   
+Panl TBEGenI    1     25    575  520  1018 564  1  1   1   0  7   255 0  1  10  1     1  0 
+Cell 25
+*----------------------------------------------------------------------------
+***  name       rw    cl    x1   y1   x2   y2   t  hw  vw  s  bc  oc  st f  a   du    v  rf   
+Panl TBEGenT    1     4     575  485  1018 515  0  1   1   10 0   255 0  1  0   0     1  0
+Cell
+*----------------------------------------------------------------------------
+***  name       rw    cl    x1   y1   x2   y2   t  hw  vw  s  bc  oc  st f  a   du    v  rf   
+Panl TBEGeneral 1     1     575  340  1018 480  2  1   1   12 15  0   0  1  0   0     1  0 
+Cell
+*----------------------------------------------------------------------------
+***  name       rw    cl    x1   y1   x2   y2   t  hw  vw  s  bc  oc  st f  a   du    v  rf   
+Panl TBEGenB    1     1     570  332  1023 580  1  1   1   12 15  0   0  1  0   0     0  0 
+Cell
+*----------------------------------------------------------------------------
+***  name       rw    cl    x1   y1   x2   y2   t  hw  vw  s  bc  oc  st f  a   du    v  rf   
+Panl TBESaveD   1     1     190  110  550  200  1  3   3   0  4   0   0  1  0   0     1  0 
+Toff
+Text Dialog Box
+Cell
+*----------------------------------------------------------------------------
+***  name       rw    cl    x1   y1   x2   y2   t  hw  vw  s  bc  oc  st f  a   du    v  rf   
+Panl TBESavX    1     1     190  218  550  315  1  1   1   12 15  0   0  1  1   20    1  0 
+JusH 0
+Text Extra box
+Cell
+*----------------------------------------------------------------------------
+***  name       rw    cl    x1   y1   x2   y2   t  hw  vw  s  bc  oc  st f  a   du    v  rf   
+Panl TBESavR    1     1     190  326  550  423  1  1   1   12 15  0   0  1  1   20    1  0 
+JusH 0
+Text Save as ABCDEFGH.SDF
+Fore 255
+Text S=028:124
+JusH 2
+JusV 0
+Fore 4
+Text Enter
+Cell
+*----------------------------------------------------------------------------
+***  name       rw    cl    x1   y1   x2   y2   t  hw  vw  s  bc  oc  st f  a   du    v  rf   
+Panl TBESaveC   1     1     190  434  550  531  1  1   1   12 15  0   0  1  1   20    1  0 
+JusH 0
+Text  Cancel
+Fore 255
+Text S=001:027
+JusH 2
+JusV 0
+Fore 4
+Text Escape
+Cell
+*----------------------------------------------------------------------------
+***  name       rw    cl    x1   y1   x2   y2   t  hw  vw  s  bc  oc  st f  a   du    v  rf   
+Panl TBESaveB   1     1     175  77   568  575  1  1   1   12 15  0   0  1  0   0     0  0 
+Cell
+*----------------------------------------------------------------------------
+***  name       rw    cl    x1   y1   x2   y2   t  hw  vw  s  bc  oc  st f  a   du    v  rf   
+Panl TBEinfo    3     1     852  78   1023 420  2  1   1   12 15  0   0  1  0   0     1  0 
+JusV 0
+Text 1024x1024
+JusV 2
+Text Coordinate|System
+Cell
+JusH 0
+JusV 1
+Text X1
+JusH 1
+JusV 2
+Text Y1
+JusH 2
+JusV 1
+Text X2
+JusH 1
+JusV 0
+Text Y2
+TOFF
+Cell
+JusH 0
+JusV 1
+Text Width/Height
+TOFF
+Cell
+*----------------------------------------------------------------------------
+***  name       rw    cl    x1   y1   x2   y2   t  hw  vw  s  bc  oc  st f  a   du    v  rf   
+Panl TBEORGBbox 1     1     644  229  793  974  0  1   1   12 15  0   0  1  0   0     0  0
+Fore 255
+Cell 
+*----------------------------------------------------------------------------
+***  name       rw    cl    x1   y1   x2   y2   t  hw  vw  s  bc  oc  st f  a   du    v  rf   
+Panl TBEObBar   1     1     57   856  110  972  0  1   1   10 15 255  0  9  0   0     0  0
+Cell 
+*----------------------------------------------------------------------------
+***  name       rw    cl    x1   y1   x2   y2   t  hw  vw  s  bc  oc  st f  a   du    v  rf   
+Panl TBEORGBbI  1     1     560  854  625  974  2  1   1   12 15  0   0  1  0   0     1  10
+Prim 4 8 1 7
+Cell 
+*----------------------------------------------------------------------------
+***  name       rw    cl    x1   y1   x2   y2   t  hw  vw  s  bc  oc  st f  a   du    v  rf   
+Panl TBEORGBb   1     1     104  854  547  974  2  1   1   12 0   0   0  1  0   0     0  0
+JusH 0
+Text      Blue|||||||||||
+Cell 
+*----------------------------------------------------------------------------
+***  name       rw    cl    x1   y1   x2   y2   t  hw  vw  s  bc  oc  st f  a   du    v  rf   
+Panl TBEORGBbD  1     1     25   854  90   974  2  1   1   12 15  0   0  1  0   0     1  10
+Prim 2 8 1 7
+Cell 
+*----------------------------------------------------------------------------
+***  name       rw    cl    x1   y1   x2   y2   t  hw  vw  s  bc  oc  st f  a   du    v  rf   
+Panl TBEORGBbO  1     1     104  796  150  846  0  1   1   12 15  0   0  1  0   0     0  0
+Text 0
+Cell 
+*----------------------------------------------------------------------------
+***  name       rw    cl    x1   y1   x2   y2   t  hw  vw  s  bc  oc  st f  a   du    v  rf   
+Panl TBEOgBar   1     1     57   583  110  699  0  1   1   10 15  255 0  9  0   0     0  0
+Cell 
+*----------------------------------------------------------------------------
+***  name       rw    cl    x1   y1   x2   y2   t  hw  vw  s  bc  oc  st f  a   du    v  rf   
+Panl TBEORGBgI  1     1     560  581  625  701  2  1   1   12 15  0   0  1  0   0     1  10
+Prim 4 8 1 7
+Cell 
+*----------------------------------------------------------------------------
+***  name       rw    cl    x1   y1   x2   y2   t  hw  vw  s  bc  oc  st f  a   du    v  rf   
+Panl TBEORGBg   1     1     104  581  547  701  2  1   1   12 15  0   0  1  0   0     0  0
+JusH 0
+Text      Green|||||||||||
+Cell 
+*----------------------------------------------------------------------------
+***  name       rw    cl    x1   y1   x2   y2   t  hw  vw  s  bc  oc  st f  a   du    v  rf   
+Panl TBEORGBgD  1     1     25   581  90   701  2  1   1   12 15  0   0  1  0   0     1  10
+Prim 2 8 1 7
+Cell 
+*----------------------------------------------------------------------------
+***  name       rw    cl    x1   y1   x2   y2   t  hw  vw  s  bc  oc  st f  a   du    v  rf   
+Panl TBEORGBgO  1     1     104  523  150  573  0  1   1   12 15  0   0  1  0   0     0  0
+Text 0
+Cell 
+*----------------------------------------------------------------------------
+***  name       rw    cl    x1   y1   x2   y2   t  hw  vw  s  bc  oc  st f  a   du    v  rf   
+Panl TBEOrBar   1     1     57   340  110  456  0  1   1   10 15  255 0  9  0   0     0  0
+Cell 
+*----------------------------------------------------------------------------
+***  name       rw    cl    x1   y1   x2   y2   t  hw  vw  s  bc  oc  st f  a   du    v  rf   
+Panl TBEORGBrI  1     1     560  338  625  458  2  1   1   12 15  0   0  1  0   0     1  10
+Prim 4 8 1 7
+Cell 
+*----------------------------------------------------------------------------
+***  name       rw    cl    x1   y1   x2   y2   t  hw  vw  s  bc  oc  st f  a   du    v  rf   
+Panl TBEORGBr   1     1     104  338  547  458  2  1   1   12 15  0   0  1  0   0     0  0
+JusH 0
+Text      Red|||||||||||
+Cell 
+*----------------------------------------------------------------------------
+***  name       rw    cl    x1   y1   x2   y2   t  hw  vw  s  bc  oc  st f  a   du    v  rf   
+Panl TBEORGBrD  1     1     25   338  90   458  2  1   1   12 15  0   0  1  0   0     1  10
+Prim 2 8 1 7
+Cell 
+*----------------------------------------------------------------------------
+***  name       rw    cl    x1   y1   x2   y2   t  hw  vw  s  bc  oc  st f  a   du    v  rf   
+Panl TBEORGBrO  1     1     104  280  150  330  0  1   1   12 15  0   0  1  0   0     0  0
+Text 0
+Cell 
+*----------------------------------------------------------------------------
+***  name       rw    cl    x1   y1   x2   y2   t  hw  vw  s  bc  oc  st f  a   du    v  rf   
+Panl TBEORGB    1     1     10   191  820  1017 0  1   1   12 15  0   0  1  0   0     0  0
+Cell 
+*----------------------------------------------------------------------------
+***  name       rw    cl    x1   y1   x2   y2   t  hw  vw  s  bc  oc  st f  a   du    v  rf   
+Panl TBEOpalP   16    1     822  78   850  967  0  0   0   0  0   255 0  1  0   0     0  0 
+Fore 15
+Cell 16 
+*----------------------------------------------------------------------------
+***  name       rw    cl    x1   y1   x2   y2   t  hw  vw  s  bc  oc  st f  a   du    v  rf   
+Panl TBEOpalCON 1     4     10   10   800  151  2  1   1   12 15  0   0  1  0   0     1  0 
+Text Ignore ?
+Cell 
+Text EGA Default|for pot
+Cell 
+Text Exit
+Cell 
+Text RGB|Selector
+Cell 
+*----------------------------------------------------------------------------
+***  name       rw    cl    x1   y1   x2   y2   t  hw  vw  s  bc  oc  st f  a   du    v  rf   
+Panl TBEOpal    1     1     1    1    1023 1023 1  0   0   0  0   0   0  1  0   0     0  0 
+Cell 
+*----------------------------------------------------------------------------
+***  name       rw    cl    x1   y1   x2   y2   t  hw  vw  s  bc  oc  st f  a   du    v  rf   
+Panl TBEwipe    1     1     1    1    1023 1023 1  0   0   0  0   0   0  1  0   0     0  0 
+Back 255
+Cell 
+
+
